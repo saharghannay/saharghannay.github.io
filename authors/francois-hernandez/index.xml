@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>François Hernandez | Sahar Ghannay</title>
+    <link>https://saharghannay.github.io/authors/francois-hernandez/</link>
+      <atom:link href="https://saharghannay.github.io/authors/francois-hernandez/index.xml" rel="self" type="application/rss+xml" />
+    <description>François Hernandez</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 18 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://saharghannay.github.io/img/icon-192.png</url>
+      <title>François Hernandez</title>
+      <link>https://saharghannay.github.io/authors/francois-hernandez/</link>
+    </image>
+    
+    <item>
+      <title>TED-LIUM 3: Twice as Much Data and Corpus Repartition for Experiments on Speaker Adaptation</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/hernandez-2018-tedlium/</link>
+      <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/hernandez-2018-tedlium/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

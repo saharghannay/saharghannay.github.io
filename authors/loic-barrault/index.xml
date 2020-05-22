@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Loïc Barrault | Sahar Ghannay</title>
+    <link>https://saharghannay.github.io/authors/loic-barrault/</link>
+      <atom:link href="https://saharghannay.github.io/authors/loic-barrault/index.xml" rel="self" type="application/rss+xml" />
+    <description>Loïc Barrault</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://saharghannay.github.io/img/icon-192.png</url>
+      <title>Loïc Barrault</title>
+      <link>https://saharghannay.github.io/authors/loic-barrault/</link>
+    </image>
+    
+    <item>
+      <title>Using Hypothesis Selection Based Features for Confusion Network MT System Combination</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/ghannay-2014-trans/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/ghannay-2014-trans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

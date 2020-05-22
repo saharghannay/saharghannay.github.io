@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Sahar Ghannay</title>
+    <link>https://saharghannay.github.io/publication/</link>
+      <atom:link href="https://saharghannay.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 04 May 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://saharghannay.github.io/img/icon-192.png</url>
+      <title>Publications</title>
+      <link>https://saharghannay.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>Error Analysis Applied to End-to-End Spoken Language Understanding</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/caubriere-2020-sluanaly/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/caubriere-2020-sluanaly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is best for spoken language understanding: small but task-dependant embeddings or huge but out-of-domain embeddings?</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/ghannay-2020-sluembed/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/ghannay-2020-sluembed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Comparison of Metric Learning Loss Functions for End-To-End Speaker Verification</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/juan-2020-spk/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/juan-2020-spk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A study of continuous space word and sentence representations applied to ASR error detection</title>
+      <link>https://saharghannay.github.io/publication/journal-article/ghannay-2020-spcom/</link>
+      <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/journal-article/ghannay-2020-spcom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lifelong learning and task-oriented dialogue system: what does it mean?</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/veron-2019-ll/</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/veron-2019-ll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>End-to-end named entity and semantic concept extraction from speech</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/ghannay-2018-endtoend/</link>
+      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/ghannay-2018-endtoend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TED-LIUM 3: Twice as Much Data and Corpus Repartition for Experiments on Speaker Adaptation</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/hernandez-2018-tedlium/</link>
+      <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/hernandez-2018-tedlium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Task Specific Sentence Embeddings for ASR Error Detection</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/ghannay-2018-sentem/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/ghannay-2018-sentem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Représentations de phrases dans un espace continu spécifiques à la tâche de détection d&#39;erreurs</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/ghannay-2018-sentemf/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/ghannay-2018-sentemf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulation d&#39;erreurs de reconnaissance automatique dans un cadre de compréhension de la parole</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/simonnet-2018-sluerrf/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/simonnet-2018-sluerrf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>End-to-end named entity extraction from speech</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/ghannay-2018-endtoend2/</link>
+      <pubDate>Wed, 30 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/ghannay-2018-endtoend2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulating ASR errors for training SLU systems</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/simonnet-2017-sluerr/</link>
+      <pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/simonnet-2017-sluerr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enriching confusion networks for post-processing</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/ghannay-2017-enriching/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/ghannay-2017-enriching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A study of continuous word representations applied to the automatic detection of speech recognition errors</title>
+      <link>https://saharghannay.github.io/publication/thesis/ghannay-2017-phd/</link>
+      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/thesis/ghannay-2017-phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ASR Error Management for Improving Spoken Language Understanding</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/simonnet-2017-slu/</link>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/simonnet-2017-slu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using Hypothesis Selection Based Features for Confusion Network MT System Combination</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/ghannay-2014-trans/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/ghannay-2014-trans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Acoustic word embeddings for ASR error detection</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/ghannay-2016-acoustic/</link>
+      <pubDate>Thu, 08 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/ghannay-2016-acoustic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent improvements on error detection for automatic speech recognition</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/esteve-2016-imp/</link>
+      <pubDate>Tue, 30 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/esteve-2016-imp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluation of acoustic word embeddings</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/ghannay-2016-acouseval/</link>
+      <pubDate>Tue, 16 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/ghannay-2016-acouseval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Utilisation des représentations continues des mots et des paramètres prosodiques pour la détection d&#39;erreurs dans les transcriptions automatiques de la parole</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/ghannay-2016-errprossf/</link>
+      <pubDate>Mon, 04 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/ghannay-2016-errprossf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Word embedding evaluation and combination</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/ghannay-2016-weevaluation/</link>
+      <pubDate>Mon, 23 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/ghannay-2016-weevaluation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Combining continous word representation and prosodic features for ASR error prediction</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/ghannay-2015-errpross/</link>
+      <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/ghannay-2015-errpross/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Which ASR errors are hard to detect?</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/ghannay-2015-erranalyse/</link>
+      <pubDate>Fri, 11 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/ghannay-2015-erranalyse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Word embeddings combination and neural networks for robustness in ASR error detection</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/ghannay-2015-wecomberr/</link>
+      <pubDate>Mon, 31 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/ghannay-2015-wecomberr/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

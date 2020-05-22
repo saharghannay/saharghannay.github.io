@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Renato De Mori | Sahar Ghannay</title>
+    <link>https://saharghannay.github.io/authors/renato-de-mori/</link>
+      <atom:link href="https://saharghannay.github.io/authors/renato-de-mori/index.xml" rel="self" type="application/rss+xml" />
+    <description>Renato De Mori</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 04 May 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://saharghannay.github.io/img/icon-192.png</url>
+      <title>Renato De Mori</title>
+      <link>https://saharghannay.github.io/authors/renato-de-mori/</link>
+    </image>
+    
+    <item>
+      <title>Error Analysis Applied to End-to-End Spoken Language Understanding</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/caubriere-2020-sluanaly/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/caubriere-2020-sluanaly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ASR Error Management for Improving Spoken Language Understanding</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/simonnet-2017-slu/</link>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/simonnet-2017-slu/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

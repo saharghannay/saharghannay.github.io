@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Camille Dutrey | Sahar Ghannay</title>
+    <link>https://saharghannay.github.io/authors/camille-dutrey/</link>
+      <atom:link href="https://saharghannay.github.io/authors/camille-dutrey/index.xml" rel="self" type="application/rss+xml" />
+    <description>Camille Dutrey</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 04 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://saharghannay.github.io/img/icon-192.png</url>
+      <title>Camille Dutrey</title>
+      <link>https://saharghannay.github.io/authors/camille-dutrey/</link>
+    </image>
+    
+    <item>
+      <title>Utilisation des représentations continues des mots et des paramètres prosodiques pour la détection d&#39;erreurs dans les transcriptions automatiques de la parole</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/ghannay-2016-errprossf/</link>
+      <pubDate>Mon, 04 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/ghannay-2016-errprossf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Combining continous word representation and prosodic features for ASR error prediction</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/ghannay-2015-errpross/</link>
+      <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/ghannay-2015-errpross/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

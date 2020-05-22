@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sophie Rosset | Sahar Ghannay</title>
+    <link>https://saharghannay.github.io/authors/sophie-rosset/</link>
+      <atom:link href="https://saharghannay.github.io/authors/sophie-rosset/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sophie Rosset</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 04 May 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://saharghannay.github.io/img/icon-192.png</url>
+      <title>Sophie Rosset</title>
+      <link>https://saharghannay.github.io/authors/sophie-rosset/</link>
+    </image>
+    
+    <item>
+      <title>What is best for spoken language understanding: small but task-dependant embeddings or huge but out-of-domain embeddings?</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/ghannay-2020-sluembed/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/ghannay-2020-sluembed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Comparison of Metric Learning Loss Functions for End-To-End Speaker Verification</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/juan-2020-spk/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/juan-2020-spk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lifelong learning and task-oriented dialogue system: what does it mean?</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/veron-2019-ll/</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/veron-2019-ll/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

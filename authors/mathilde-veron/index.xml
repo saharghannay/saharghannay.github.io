@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathilde Veron | Sahar Ghannay</title>
+    <link>https://saharghannay.github.io/authors/mathilde-veron/</link>
+      <atom:link href="https://saharghannay.github.io/authors/mathilde-veron/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mathilde Veron</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 24 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://saharghannay.github.io/img/icon-192.png</url>
+      <title>Mathilde Veron</title>
+      <link>https://saharghannay.github.io/authors/mathilde-veron/</link>
+    </image>
+    
+    <item>
+      <title>Lifelong learning and task-oriented dialogue system: what does it mean?</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/veron-2019-ll/</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/veron-2019-ll/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -18,21 +18,6 @@
   </url>
   
   <url>
-    <loc>https://saharghannay.github.io/talk/example/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://saharghannay.github.io/talk/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://saharghannay.github.io/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://saharghannay.github.io/authors/antoine-caubriere/</loc>
     <lastmod>2020-05-04T00:00:00+00:00</lastmod>
   </url>
@@ -84,6 +69,11 @@
   
   <url>
     <loc>https://saharghannay.github.io/authors/renato-de-mori/</loc>
+    <lastmod>2020-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://saharghannay.github.io/</loc>
     <lastmod>2020-05-04T00:00:00+00:00</lastmod>
   </url>
   

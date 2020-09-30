@@ -30,7 +30,7 @@
   
   <meta name="description" content="[English version below]
 Objectif L&#39;objectif du TP est de construire et de comparer différents type de plongements lexicaux (embeddings de mots) en utilisant les bibliothèques gensim et fasttext.
-Ces embeddings seront entrainés sur deux corpus différents : corpus en domaine médical (QUAERO_FrenchMed) de petit taille et un corpus non médical (QUAERO_FrenchPress) de grand taille. Ils seront évaluer sur la tâche de détection d’entités nommées (NER : Named Entity recognition) pendant le TP2 (l’après midi).">
+Ces embeddings seront entrainés sur deux corpus différents : corpus en domaine médical (QUAERO_FrenchMed) de petite taille et un corpus non médical (QUAERO_FrenchPress) de grande taille. Ils seront évalués sur la tâche de détection d’entités nommées (NER : Named Entity recognition) pendant le TP2 (l’après midi).">
 
   
   <link rel="alternate" hreflang="en-us" href="https://saharghannay.github.io/courses/cours1/example1/">
@@ -155,7 +155,7 @@ Ces embeddings seront entrainés sur deux corpus différents : corpus en domain
   <meta property="og:title" content="Word embeddings training | Sahar Ghannay">
   <meta property="og:description" content="[English version below]
 Objectif L&#39;objectif du TP est de construire et de comparer différents type de plongements lexicaux (embeddings de mots) en utilisant les bibliothèques gensim et fasttext.
-Ces embeddings seront entrainés sur deux corpus différents : corpus en domaine médical (QUAERO_FrenchMed) de petit taille et un corpus non médical (QUAERO_FrenchPress) de grand taille. Ils seront évaluer sur la tâche de détection d’entités nommées (NER : Named Entity recognition) pendant le TP2 (l’après midi)."><meta property="og:image" content="https://saharghannay.github.io/img/icon-192.png">
+Ces embeddings seront entrainés sur deux corpus différents : corpus en domaine médical (QUAERO_FrenchMed) de petite taille et un corpus non médical (QUAERO_FrenchPress) de grande taille. Ils seront évalués sur la tâche de détection d’entités nommées (NER : Named Entity recognition) pendant le TP2 (l’après midi)."><meta property="og:image" content="https://saharghannay.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://saharghannay.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
@@ -493,8 +493,8 @@ Ces embeddings seront entrainés sur deux corpus différents : corpus en domain
             <p>[English version below]</p>
 <h1 id="objectif">Objectif</h1>
 <p>L'objectif du TP est de construire et de comparer différents type de plongements lexicaux (embeddings de mots) en utilisant les bibliothèques <code>gensim</code> et <code>fasttext</code>.<br>
-Ces embeddings seront entrainés sur deux corpus différents : corpus en domaine médical (QUAERO_FrenchMed) de petit taille et un corpus non médical (QUAERO_FrenchPress) de grand taille.
-Ils seront évaluer sur la tâche de détection d’entités nommées (NER : Named Entity recognition)  pendant le TP2 (l’après midi).</p>
+Ces embeddings seront entrainés sur deux corpus différents : corpus en domaine médical (QUAERO_FrenchMed) de petite taille et un corpus non médical (QUAERO_FrenchPress) de grande taille.
+Ils seront évalués sur la tâche de détection d’entités nommées (NER : Named Entity recognition)  pendant le TP2 (l’après midi).</p>
 <p>Vous êtes invités à utiliser les approches <strong>word2vec</strong> (Cbow, skipgram) et <strong>fasttext</strong> (Cbow).</p>
 <h1 id="ressources">Ressources</h1>
 <ul>
@@ -502,7 +502,7 @@ Ils seront évaluer sur la tâche de détection d’entités nommées (NER : Na
 <li>Fasttext : <a href="https://fasttext.cc/docs/en/support.html">https://fasttext.cc/docs/en/support.html</a></li>
 <li>Corpus: <a href="https://perso.limsi.fr/neveol/TP_ISD2020.zip">https://perso.limsi.fr/neveol/TP_ISD2020.zip</a>
 <ul>
-<li>Les fichiers <code>QUAERO_FrenchMed.ospl</code> et <code>QUAERO_FrenchPress_ID.ospl</code> seront utiliser pour l'apprentissage des embeddings. Ils contiennent des corpus au format «une phrase par ligne», avec une segmentation des tokens qui sont séparés par des espaces.</li>
+<li>Les fichiers <code>QUAERO_FrenchMed.ospl</code> et <code>QUAERO_FrenchPress_ID.ospl</code> seront utilisés pour l'apprentissage des embeddings. Ils contiennent des corpus au format «une phrase par ligne», avec une segmentation des tokens qui sont séparés par des espaces.</li>
 </ul>
 </li>
 </ul>
@@ -539,7 +539,7 @@ Plusieurs évaluations à faire :</p>
 </ul>
 </li>
 </ul>
-<p>Voici la liste de mots candidates :  <code>patient, traitement, maladie, solution, jaune</code></p>
+<p>Voici la liste de mots candidats :  <code>patient, traitement, maladie, solution, jaune</code></p>
 <p>Pour l'évaluation vous pouvez utiliser soit :</p>
 <ul>
 <li>la méthode <code>spatial</code> de la bibliothèque python scipy, dans ce cas, vous devez charger les embeddings construits, et cherchez pour un mot donné la liste des 10 mots les plus proches</li>

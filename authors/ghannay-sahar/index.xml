@@ -5,12 +5,20 @@
     <link>https://saharghannay.github.io/authors/ghannay-sahar/</link>
       <atom:link href="https://saharghannay.github.io/authors/ghannay-sahar/index.xml" rel="self" type="application/rss+xml" />
     <description>**Ghannay Sahar**</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 24 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://saharghannay.github.io/img/icon-192.png</url>
       <title>**Ghannay Sahar**</title>
       <link>https://saharghannay.github.io/authors/ghannay-sahar/</link>
     </image>
+    
+    <item>
+      <title>A Cooking Knowledge Graph and Benchmark for Question Answering Evaluation in Lifelong Learning Scenarios</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/mathilde_nldb_2020/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/mathilde_nldb_2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Lifelong learning and task-oriented dialogue system: what does it mean?</title>

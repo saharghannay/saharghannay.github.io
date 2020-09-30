@@ -3,27 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://saharghannay.github.io/courses/example/example1/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+    <loc>https://saharghannay.github.io/courses/cours3/</loc>
+    <lastmod>2020-09-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://saharghannay.github.io/courses/example/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+    <loc>https://saharghannay.github.io/courses/cours2/</loc>
+    <lastmod>2020-09-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://saharghannay.github.io/courses/example/example2/</loc>
+    <loc>https://saharghannay.github.io/courses/cours8/</loc>
+    <lastmod>2018-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://saharghannay.github.io/courses/cours1/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://saharghannay.github.io/courses/cours1/example1/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://saharghannay.github.io/courses/cours4/</loc>
+    <lastmod>2018-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://saharghannay.github.io/courses/cours6/</loc>
+    <lastmod>2014-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://saharghannay.github.io/courses/cours7/</loc>
+    <lastmod>2014-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://saharghannay.github.io/courses/cours5/</loc>
+    <lastmod>2014-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://saharghannay.github.io/courses/cours1/example2/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://saharghannay.github.io/authors/antoine-caubriere/</loc>
-    <lastmod>2020-05-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://saharghannay.github.io/authors/sahar-ghannay/</loc>
     <lastmod>2020-05-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -74,6 +104,11 @@
   
   <url>
     <loc>https://saharghannay.github.io/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://saharghannay.github.io/authors/sahar-ghannay/</loc>
     <lastmod>2020-05-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -93,7 +128,22 @@
   </url>
   
   <url>
+    <loc>https://saharghannay.github.io/authors/rosset-sophie/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://saharghannay.github.io/authors/ghannay-sahar/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://saharghannay.github.io/authors/juan-manuel-coria/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://saharghannay.github.io/authors/veron-mathilde/</loc>
     <lastmod>2020-03-31T00:00:00+00:00</lastmod>
   </url>
   
@@ -103,7 +153,32 @@
   </url>
   
   <url>
+    <loc>https://saharghannay.github.io/publication/conference-paper/mathilde_nldb_2020/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://saharghannay.github.io/publication/conference-paper/juan-2020-metric/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://saharghannay.github.io/authors/banerjee-somnath/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://saharghannay.github.io/authors/echegoyen-guillermo/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://saharghannay.github.io/authors/herve-bredin/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://saharghannay.github.io/authors/penas-anselmo/</loc>
     <lastmod>2020-03-31T00:00:00+00:00</lastmod>
   </url>
   
@@ -120,11 +195,6 @@
   <url>
     <loc>https://saharghannay.github.io/authors/nathalie-camelin/</loc>
     <lastmod>2020-03-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://saharghannay.github.io/authors/ghannay-sahar/</loc>
-    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -168,6 +238,16 @@
   </url>
   
   <url>
+    <loc>https://saharghannay.github.io/teachings/semantic-representations/</loc>
+    <lastmod>2018-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://saharghannay.github.io/teachings/</loc>
+    <lastmod>2018-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://saharghannay.github.io/authors/francois-hernandez/</loc>
     <lastmod>2018-09-18T00:00:00+00:00</lastmod>
   </url>
@@ -185,6 +265,11 @@
   <url>
     <loc>https://saharghannay.github.io/authors/vincent-nguyen/</loc>
     <lastmod>2018-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://saharghannay.github.io/teachings/service-side-web-programming/</loc>
+    <lastmod>2018-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -339,6 +424,10 @@
   
   <url>
     <loc>https://saharghannay.github.io/authors/sahar/</loc>
+  </url>
+  
+  <url>
+    <loc>https://saharghannay.github.io/project/cour-tranduction/</loc>
   </url>
   
   <url>

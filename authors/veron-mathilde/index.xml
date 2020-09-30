@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>**Veron Mathilde** | Sahar Ghannay</title>
+    <link>https://saharghannay.github.io/authors/veron-mathilde/</link>
+      <atom:link href="https://saharghannay.github.io/authors/veron-mathilde/index.xml" rel="self" type="application/rss+xml" />
+    <description>**Veron Mathilde**</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://saharghannay.github.io/img/icon-192.png</url>
+      <title>**Veron Mathilde**</title>
+      <link>https://saharghannay.github.io/authors/veron-mathilde/</link>
+    </image>
+    
+    <item>
+      <title>A Cooking Knowledge Graph and Benchmark for Question Answering Evaluation in Lifelong Learning Scenarios</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/mathilde_nldb_2020/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/mathilde_nldb_2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

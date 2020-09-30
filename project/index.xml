@@ -33,5 +33,18 @@
 </description>
     </item>
     
+    <item>
+      <title>Algorithmic and programming</title>
+      <link>https://saharghannay.github.io/project/cour-tranduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/project/cour-tranduction/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;2010-2015 (55 hours)&lt;/li&gt;
+&lt;li&gt;BSc level (L2)&lt;/li&gt;
+&lt;li&gt;Data structures (linked list, hashtable, tree), pointers, recursivity&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Semantic Representations | Sahar Ghannay</title>
+    <link>https://saharghannay.github.io/courses/cours1/</link>
+      <atom:link href="https://saharghannay.github.io/courses/cours1/index.xml" rel="self" type="application/rss+xml" />
+    <description>Semantic Representations</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 05 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://saharghannay.github.io/img/icon-192.png</url>
+      <title>Semantic Representations</title>
+      <link>https://saharghannay.github.io/courses/cours1/</link>
+    </image>
+    
+    <item>
+      <title>Word embeddings training</title>
+      <link>https://saharghannay.github.io/courses/cours1/example1/</link>
+      <pubDate>Sat, 05 May 2018 00:00:00 +0100</pubDate>
+      <guid>https://saharghannay.github.io/courses/cours1/example1/</guid>
+      <description>&lt;p&gt;[English version below]&lt;/p&gt;
+&lt;h1 id=&#34;objectif&#34;&gt;Objectif&lt;/h1&gt;
+&lt;p&gt;L&#39;objectif du TP est de construire et de comparer différents type de plongements lexicaux (embeddings de mots) en utilisant les bibliothèques &lt;code&gt;gensim&lt;/code&gt; et &lt;code&gt;fasttext&lt;/code&gt;.&lt;br&gt;
+Ces embeddings seront entrainés sur deux corpus différents : corpus en domaine médical (QUAERO_FrenchMed) de petit taille et un corpus non médical (QUAERO_FrenchPress) de grand taille.
+Ils seront évaluer sur la tâche de détection d’entités nommées (NER : Named Entity recognition)  pendant le TP2 (l’après midi).&lt;/p&gt;
+&lt;p&gt;Vous êtes invités à utiliser les approches &lt;strong&gt;word2vec&lt;/strong&gt; (Cbow, skipgram) et &lt;strong&gt;fasttext&lt;/strong&gt; (Cbow).&lt;/p&gt;
+&lt;h1 id=&#34;ressources&#34;&gt;Ressources&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Word2vec : &lt;a href=&#34;https://radimrehurek.com/gensim/models/word2vec.html#gensim.models.word2vec.Word2Vec&#34;&gt;https://radimrehurek.com/gensim/models/word2vec.html#gensim.models.word2vec.Word2Vec&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fasttext : &lt;a href=&#34;https://fasttext.cc/docs/en/support.html&#34;&gt;https://fasttext.cc/docs/en/support.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Corpus: &lt;a href=&#34;https://perso.limsi.fr/neveol/TP_ISD2020.zip&#34;&gt;https://perso.limsi.fr/neveol/TP_ISD2020.zip&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Les fichiers &lt;code&gt;QUAERO_FrenchMed.ospl&lt;/code&gt; et &lt;code&gt;QUAERO_FrenchPress_ID.ospl&lt;/code&gt; seront utiliser pour l&#39;apprentissage des embeddings. Ils contiennent des corpus au format «une phrase par ligne», avec une segmentation des tokens qui sont séparés par des espaces.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;outils-ncessaires&#34;&gt;Outils nécessaires&lt;/h1&gt;
+&lt;p&gt;Avant de commencer le TP, Je vous invite à suivre les étapes suivantes pour installer les outils :&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Créer l&#39;environnement de travail «miniconda»
+# Télécharger le fichier et l&#39;installer comme suit :
+ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+ chmod +x Miniconda3-latest-Linux-x86_64.sh
+./Miniconda3-latest-Linux-x86_64.sh
+# Créer l&#39;environnement et l&#39;activer
+  conda create -n myenv python=3.6
+  Conda activate myenv
+# Installer les outils nécessaires pour la création de plongements lexicaux
+  pip install gensim==0.12.0
+  pip install fasttext 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;apprentissage-des-embeddings-de-mot&#34;&gt;Apprentissage des embeddings de mot&lt;/h1&gt;
+&lt;p&gt;La première étape de votre travail va être de créer des scripts python et bash permettant d&#39;apprendre les différentes approches d’embeddings &lt;strong&gt;word2vec&lt;/strong&gt; (Cbow, skipgram) et &lt;strong&gt;fasttext&lt;/strong&gt; (Cbow) sur les deux corpus médical et non médical &lt;strong&gt;QUAERO_FrenchMed&lt;/strong&gt; et &lt;strong&gt;QUAERO_FrenchPress&lt;/strong&gt; (au total 6 embeddings).&lt;/p&gt;
+&lt;p&gt;Suivez les étapes nécessaires dans la documentation pour créer et sauvegarder les modèles et les embeddings de mots.&lt;/p&gt;
+&lt;p&gt;Vous pouvez utiliser ces hyper-paramètres pour l&#39;apprentissage des embeddings : &lt;code&gt;dim=100&lt;/code&gt;, &lt;code&gt;min_count=1&lt;/code&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;similarit-smantique&#34;&gt;Similarité sémantique&lt;/h1&gt;
+&lt;p&gt;La deuxième étape consiste à trouver les mots les plus proches d&#39;un mot donné en s&#39;appuyant sur le calcul de similarité cosinus.
+Plusieurs évaluations à faire :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Comparer des  d&#39;embeddings entrainés sur le même corpus :
+&lt;ul&gt;
+&lt;li&gt;tester l&#39;impact des approches (skipgram, cbow, fasttext) sur le résultats&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Comparer des embeddings (même approche) entrainés sur de corpus différents (médical et non médical) :
+&lt;ul&gt;
+&lt;li&gt;tester l&#39;impact de données (type et quantité) sur les résultats&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Voici la liste de mots candidates :  &lt;code&gt;patient, traitement, maladie, solution, jaune&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Pour l&#39;évaluation vous pouvez utiliser soit :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;la méthode &lt;code&gt;spatial&lt;/code&gt; de la bibliothèque python scipy, dans ce cas, vous devez charger les embeddings construits, et cherchez pour un mot donné la liste des 10 mots les plus proches&lt;/li&gt;
+&lt;li&gt;la méthode &lt;code&gt;most_similar&lt;/code&gt; du gensim, dans ce cas, vous devez charger les modèles sauvegardés
+&lt;ul&gt;
+&lt;li&gt;vous pouvez utiliser gensim pour charger les modèles word2vec et fasttext&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;objective&#34;&gt;Objective&lt;/h1&gt;
+&lt;p&gt;The objective of this lab session is to build and compare different word embeddings aproaches using the &lt;code&gt;gensim&lt;/code&gt; and&lt;code&gt; fasttext&lt;/code&gt; libraries.
+These embeddings will be trained on two different corpora: a small medical corpus (QUAERO_FrenchMed) and a large non-medical corpus (QUAERO_FrenchPress).
+They will be evaluated on the NER: Named Entity recognition task during the second pratical session TP2 (afternoon).&lt;/p&gt;
+&lt;p&gt;You are invited to use the &lt;strong&gt;word2vec&lt;/strong&gt; (Cbow, skipgram) and &lt;strong&gt;fasttext&lt;/strong&gt; (Cbow) approaches.&lt;/p&gt;
+&lt;h1 id=&#34;ressources-1&#34;&gt;Ressources&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Word2vec : &lt;a href=&#34;https://radimrehurek.com/gensim/models/word2vec.html#gensim.models.word2vec.Word2Vec&#34;&gt;https://radimrehurek.com/gensim/models/word2vec.html#gensim.models.word2vec.Word2Vec&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fasttext : &lt;a href=&#34;https://fasttext.cc/docs/en/support.html&#34;&gt;https://fasttext.cc/docs/en/support.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Corpus: &lt;a href=&#34;https://perso.limsi.fr/neveol/TP_ISD2020.zip&#34;&gt;https://perso.limsi.fr/neveol/TP_ISD2020.zip&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;The files &lt;code&gt;QUAERO_FrenchMed.ospl&lt;/code&gt; and&lt;code&gt; QUAERO_FrenchPress_ID.ospl&lt;/code&gt; will be used for learning embeddings. They contain corpora in “one sentence per line” format, with a segmentation of the tokens which are separated by spaces.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;requirements&#34;&gt;Requirements&lt;/h1&gt;
+&lt;p&gt;Before starting, I invite you to follow the next steps to install the tools:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Create the &amp;quot;miniconda&amp;quot; environment
+# Download the file and install it as follows:
+ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+ chmod +x Miniconda3-latest-Linux-x86_64.sh
+./Miniconda3-latest-Linux-x86_64.sh
+# Create the environment and activate it
+  conda create -n myenv python=3.6
+  Conda activate myenv
+# Install the required tools to train word embeddings
+  pip install gensim==0.12.0
+  pip install fasttext 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;word-embeddings-training&#34;&gt;Word embeddings training&lt;/h1&gt;
+&lt;p&gt;The first step of your work is to create python and bash scripts allowing you to train the different embeddings approaches: &lt;strong&gt;word2vec&lt;/strong&gt; (Cbow, skipgram) and &lt;strong&gt;fasttext&lt;/strong&gt; (Cbow), on the two medical and non-medical corpora, resulting to 6 embeddings models.&lt;/p&gt;
+&lt;p&gt;Follow the steps in the documentation to create and save the models and the word embeddings.&lt;/p&gt;
+&lt;p&gt;You can use these hyper-parameters to train the embeddings: &lt;code&gt;dim = 100&lt;/code&gt;,&lt;code&gt; min_count = 1&lt;/code&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;semantic-similarity&#34;&gt;Semantic similarity&lt;/h1&gt;
+&lt;p&gt;The second step is to find the closest words to a given word based on the cosine similarity calculation.
+Several evaluations to do:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Compare embeddings trained on the same corpus:
+&lt;ul&gt;
+&lt;li&gt;to test the impact of the embeddings approaches (skipgram, cbow, fasttext) on the results&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Compare embeddings (same approach) trained on different corpora (medical and non-medical):
+&lt;ul&gt;
+&lt;li&gt;to test the impact of data (type and quantity) on the results&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here is the candidate word list: &lt;code&gt;patient, treatment, disease, solution, yellow&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For the evaluation you can use either:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;spatial&lt;/code&gt; method of the python scipy library, in this case, you must load the embeddings vectors, and search for a given word for the list of the 10 closest words&lt;/li&gt;
+&lt;li&gt;gensim&#39;s &lt;code&gt;most_similar&lt;/code&gt; method, in this case you have to load the saved models
+&lt;ul&gt;
+&lt;li&gt;you can use gensim to load word2vec and fasttext models&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Named entity recognition</title>
+      <link>https://saharghannay.github.io/courses/cours1/example2/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://saharghannay.github.io/courses/cours1/example2/</guid>
+      <description>&lt;p&gt;[English version below]&lt;/p&gt;
+&lt;h1 id=&#34;objectif&#34;&gt;Objectif&lt;/h1&gt;
+&lt;p&gt;L&#39;objectif du TP est de construire et de comparer différents modèles de reconnaissance d&#39;entités nommées à partir des plongements lexicaux (embeddings) construits lors du TP 1. Nous utiliserons un modèle neuronal LSTM implémenté par Ma et Hovy&lt;/p&gt;
+&lt;p&gt;Vous êtes invités à construire plusieurs modèles pour chaque corpus de travail (voir ci-dessous) en faisant varier les paramètres suivants afin d’observer leur impact sur les performances de reconnaissance d’entités :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;taille du jeu d’entraînement ;&lt;/li&gt;
+&lt;li&gt;taille du corpus utilisé pour créer les plongements lexicaux&lt;/li&gt;
+&lt;li&gt;modèle des plongements lexicaux&lt;/li&gt;
+&lt;li&gt;adéquation entre le domaine du corpus utilisé pour la reconnaissance d’entités et les plongements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;ressources&#34;&gt;Ressources&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;L&#39;outils &lt;code&gt;https://github.com/XuezheMax/NeuroNLP2&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Corpus: &lt;a href=&#34;https://perso.limsi.fr/neveol/TP_ISD2020.zip&#34;&gt;https://perso.limsi.fr/neveol/TP_ISD2020.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;outils-ncessaires&#34;&gt;Outils nécessaires&lt;/h1&gt;
+&lt;p&gt;Veuillez installer cet outil dans votre environnement de travail.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Installer l&#39;outil nécessaire pour la reconnaissance d&#39;entités nommées
+  git clone https://github.com/XuezheMax/NeuroNLP2.git
+  pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+  pip install overrides
+  pip uninstall scipy
+  pip --no-cache-dir install scipy==1.1
+  cd NeuroNLP2
+  pip install .
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;prsentation-rapide-des-corpus&#34;&gt;Présentation rapide des corpus :&lt;/h1&gt;
+&lt;p&gt;Nous utiliserons deux corpus annotés en entités, l’un issu du domaine médical (QUAERO_FrenchMed) de petit taille et l&#39;autre issu de la presse (QUAERO_FrenchPress) de plus grande taille.&lt;/p&gt;
+&lt;p&gt;Ces corpus vous sont fournis dans un format similaire au format conll : ils contiennent cinq colonnes séparées par des espaces.&lt;/p&gt;
+&lt;p&gt;Chaque mot correspond à une ligne et les phrases sont séparées par une ligne vide.
+Les colonnes correspondent dans l&#39;ordre à l&#39;index du mot dans la phrase, le mot, deux autres colonnes qui ne seront pas utilisées et la dernière colonne représente l&#39;étiquette d&#39;entité nommée.&lt;/p&gt;
+&lt;p&gt;Les étiquettes d’entité nommée sont au format I-TYPE qui indique que le mot fait partie d’une entité de type TYPE.
+Si deux entités de même type se suivent, le premier mot de la seconde aura pour étiquette B-TYPE pour indiquer qu’il s&#39;agit d’une nouvelle entité.
+L’étiquette O indique que le mot ne fait pas partie d’une entité.&lt;/p&gt;
+&lt;h1 id=&#34;cration-de-modles&#34;&gt;Création de modèles&lt;/h1&gt;
+&lt;p&gt;La première étape de votre travail va être de créer des scripts shell permettant d’entraîner l&#39;outil sous différentes configurations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Utiliser comme base de travail le script &lt;code&gt;NeuroNLP2/experiments/scripts/run_ner_conll03.sh&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ajuster les paramètres concernant : le type de plongements, le fichier contenent votre vecteur de plongements,  &amp;ndash;embedding_dict le répertoire de sortie désiré &amp;ndash;model_path , le corpus &amp;ndash;train  &amp;ndash;dev &amp;ndash;test&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pour les besoins du TP (temps de calcul des modèles), vous pouvez ajuster certains paramètres dans la configuration du modèle : diminuer le nombre d’epoch &amp;ndash;num_epochs 20, et de l’outil (script &lt;code&gt;NeuroNLP2/experiments/ configs/ner/conll03.json&lt;/code&gt; ; par exemple, &amp;ldquo;crf&amp;rdquo;: false,  &amp;ldquo;hidden_size&amp;rdquo;: 128, &amp;ldquo;out_features&amp;rdquo;: 64,).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Quel modèle obtient les meilleures performances sur chacun des corpus ?&lt;/li&gt;
+&lt;li&gt;Voyez vous des différences entre les deux corpus ?&lt;/li&gt;
+&lt;li&gt;Comparer ces résultats avec une méthode « baseline » simple à base de règles
+Pour cela, vous pourrez utiliser le script Perl &lt;code&gt;NeuroNLP2/experiments/eval/conll03eval.v2&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour aller plus loin :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Comparer le corpus QUAERO_FrenchMed utilisé en TP avec celui distribué lors de la campagne CLEF eHealth 2016 : &lt;code&gt;https://quaerofrenchmed.limsi.fr/&lt;/code&gt; Constatez vous des différences ? Si oui, lesquelles ?&lt;/li&gt;
+&lt;li&gt;Les résultats obtenus en TP peuvent-ils être comparés avec ceux obtenus lors de la campagne d’évaluation CLEF eHealth ? Pourquoi ?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;objective&#34;&gt;Objective&lt;/h1&gt;
+&lt;p&gt;The objective of this lab session is to build and compare different models of named entity recognition using the word embeddings created during lab session 1. We will use the biLSTM model implemented by Ma and Hovy&lt;/p&gt;
+&lt;p&gt;In this lab session, you should attempt to create several models for each dataset (see below). You may observe the impact of the following parameters on anmed entity recognition performance:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;size of the training set ;&lt;/li&gt;
+&lt;li&gt;size of the corpus used to create the word embeddings ;&lt;/li&gt;
+&lt;li&gt;word embedding model ;&lt;/li&gt;
+&lt;li&gt;consistency between the domain of the corpus used for entity recognition and the word embeddings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;ressources-1&#34;&gt;Ressources&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;NER tool &lt;code&gt;https://github.com/XuezheMax/NeuroNLP2&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Corpus: &lt;a href=&#34;https://perso.limsi.fr/neveol/TP_ISD2020.zip&#34;&gt;https://perso.limsi.fr/neveol/TP_ISD2020.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;requirements&#34;&gt;Requirements&lt;/h1&gt;
+&lt;p&gt;Please install this tool in your conda environement.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Install the necessary tool for named entity recognition  git clone https://github.com/XuezheMax/NeuroNLP2.git
+  pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+  pip install overrides
+  pip uninstall scipy
+  pip --no-cache-dir install scipy==1.1
+  cd NeuroNLP2
+  pip install .
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;quick-overview-of-the-datasets&#34;&gt;Quick overview of the datasets :&lt;/h1&gt;
+&lt;p&gt;We will use two datasets with named entity annotations : a small medical corpus (QUAERO_FrenchMed) and a larger news corpus (QUAERO_FrenchPress).&lt;/p&gt;
+&lt;p&gt;The datasets are provided in conll-like format and contain five columns separated by white spaces. Each word (or token) corresponds to a line and sentences are separated by an empty line.&lt;/p&gt;
+&lt;p&gt;The columns correspond to: the token index within the sentence, the token, two columns that will not be used in this lab and finally, the last column contains the named entity tag.&lt;/p&gt;
+&lt;p&gt;Named entity tags are in the I-TYPE format, which indicates that the word is part of a TYPE entity. If two entities follow each other, the first word of the second entity will get a B-TYPE tag to indicate that it is a new entity. The O tag indicates that the word is not part of an entity.&lt;/p&gt;
+&lt;h1 id=&#34;ner-models-training&#34;&gt;NER models training&lt;/h1&gt;
+&lt;p&gt;The first step of your work will be to create shell scripts allowing you to train the tool in different configurations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use the &lt;code&gt;NeuroNLP2/experiments/scripts/run_ner_conll03.sh&lt;/code&gt; script as a working base&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Adjust the parameters concerning: the type of embedding, the file contains your vector of embeddings, &amp;ndash;embedding_dict the desired output directory &amp;ndash;model_path, the corpus &amp;ndash;train &amp;ndash;dev &amp;ndash;test&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Du to time constraint, you can adjust certain parameters in the model configuration: decrease the number of epoch &amp;ndash;num_epochs 20, and of the tool (&lt;code&gt;NeuroNLP2 script/experiments/configs/ner/conll03.json&lt;/code&gt;; for example, &amp;ldquo;crf&amp;rdquo;: false, &amp;ldquo;hidden_size&amp;rdquo;: 128, &amp;ldquo;out_features&amp;rdquo;: 64,).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;questions-1&#34;&gt;Questions&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Which model provides the best performance on each dataset?&lt;/li&gt;
+&lt;li&gt;Are there differences between the datasets ?&lt;/li&gt;
+&lt;li&gt;Compare the results of the models to a simple rule-based baseline method
+You may use this Perl script : NeuroNLP2/experiments/eval/conll03eval.v2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Going further :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Compare the QUAERO_FrenchMed dataset used in this lab session with the one distributed in the CLEF eHealth 2016 shared task : &lt;a href=&#34;https://quaerofrenchmed.limsi.fr/&#34;&gt;https://quaerofrenchmed.limsi.fr/&lt;/a&gt; Do you see any différence ? Please, describe.&lt;/li&gt;
+&lt;li&gt;Can the results obtained in this lab session be directly compared to those of the CLEF eHealth shared task participants ? Please, explain.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

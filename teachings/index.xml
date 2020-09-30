@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching | Sahar Ghannay</title>
+    <link>https://saharghannay.github.io/teachings/</link>
+      <atom:link href="https://saharghannay.github.io/teachings/index.xml" rel="self" type="application/rss+xml" />
+    <description>Teaching</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 05 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://saharghannay.github.io/img/icon-192.png</url>
+      <title>Teaching</title>
+      <link>https://saharghannay.github.io/teachings/</link>
+    </image>
+    
+    <item>
+      <title>Semantic Representations</title>
+      <link>https://saharghannay.github.io/teachings/semantic-representations/</link>
+      <pubDate>Fri, 05 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/teachings/semantic-representations/</guid>
+      <description>&lt;p&gt;Master 2 course, Université Paris-Saclay, IUT Orsay, Computer Science Department&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2018-2020&lt;/li&gt;
+&lt;li&gt;MSc level (M2)&lt;/li&gt;
+&lt;li&gt;Introduction to distributed representations, recent approaches, evaluation approaches&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;practical-session&#34;&gt;Practical session&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Service side web programming</title>
+      <link>https://saharghannay.github.io/teachings/service-side-web-programming/</link>
+      <pubDate>Wed, 05 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/teachings/service-side-web-programming/</guid>
+      <description>&lt;p&gt;BSc level (L2) course, Université Paris-Saclay, IUT Orsay, Computer Science Department&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2018-2020&lt;/li&gt;
+&lt;li&gt;BSc level (L2)&lt;/li&gt;
+&lt;li&gt;PHP, MySQL queries, Object Oriented Programming, cookies, sessions&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

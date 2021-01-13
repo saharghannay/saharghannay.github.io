@@ -29,7 +29,7 @@ Ils seront évalués sur la tâche de détection d’entités nommées (NER : N
 &lt;li&gt;Fasttext : &lt;a href=&#34;https://fasttext.cc/docs/en/support.html&#34;&gt;https://fasttext.cc/docs/en/support.html&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Corpus: &lt;a href=&#34;https://perso.limsi.fr/neveol/TP_ISD2020.zip&#34;&gt;https://perso.limsi.fr/neveol/TP_ISD2020.zip&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;Les fichiers &lt;code&gt;QUAERO_FrenchMed.ospl&lt;/code&gt; et &lt;code&gt;QUAERO_FrenchPress_ID.ospl&lt;/code&gt; seront utilisés pour l&#39;apprentissage des embeddings. Ils contiennent des corpus au format «une phrase par ligne», avec une segmentation des tokens qui sont séparés par des espaces.&lt;/li&gt;
+&lt;li&gt;Les fichiers &lt;code&gt;QUAERO_FrenchMed_traindev.ospl&lt;/code&gt; et &lt;code&gt;QUAERO_FrenchPress_traindev.ospl&lt;/code&gt; seront utilisés pour l&#39;apprentissage des embeddings. Ils contiennent des corpus au format «une phrase par ligne», avec une segmentation des tokens qui sont séparés par des espaces.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;

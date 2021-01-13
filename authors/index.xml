@@ -5,7 +5,7 @@
     <link>https://saharghannay.github.io/authors/</link>
       <atom:link href="https://saharghannay.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 04 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 08 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://saharghannay.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,18 +13,34 @@
     </image>
     
     <item>
-      <title>**Antoine Caubrière**</title>
-      <link>https://saharghannay.github.io/authors/antoine-caubriere/</link>
-      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://saharghannay.github.io/authors/antoine-caubriere/</guid>
+      <title>Christophe Servan</title>
+      <link>https://saharghannay.github.io/authors/christophe-servan/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/authors/christophe-servan/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>**Sahar Ghannay**</title>
+      <title>Sahar Ghannay</title>
       <link>https://saharghannay.github.io/authors/sahar-ghannay/</link>
-      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://saharghannay.github.io/authors/sahar-ghannay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sophie Rosset</title>
+      <link>https://saharghannay.github.io/authors/sophie-rosset/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/authors/sophie-rosset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>**Antoine Caubrière**</title>
+      <link>https://saharghannay.github.io/authors/antoine-caubriere/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/authors/antoine-caubriere/</guid>
       <description></description>
     </item>
     
@@ -57,14 +73,6 @@
       <link>https://saharghannay.github.io/authors/renato-de-mori/</link>
       <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
       <guid>https://saharghannay.github.io/authors/renato-de-mori/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sophie Rosset</title>
-      <link>https://saharghannay.github.io/authors/sophie-rosset/</link>
-      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://saharghannay.github.io/authors/sophie-rosset/</guid>
       <description></description>
     </item>
     
@@ -259,9 +267,9 @@
       <guid>https://saharghannay.github.io/authors/sahar/</guid>
       <description>&lt;p&gt;Sahar Ghannay is an associate professor at  Université Paris-Saclay, in the CNRS, &lt;a href=&#34;https://www.limsi.fr/en/&#34;&gt;LIMSI&lt;/a&gt; research center, since September 2018.&lt;/p&gt;
 &lt;p&gt;She received a PhD in Computer Science from Le Mans University on Septembre 2017.  Her thesis work is part of the ANR &lt;a href=&#34;https://anr.fr/Project-ANR-12-BS02-0006&#34;&gt;VERA&lt;/a&gt; (AdVanced ERror Analysis for speech recognition) project.
-During her PhD, she spent a few months as @ visiting researcher at Apple within the Siri Speech team.&lt;/p&gt;
+During her PhD, she spent a few months as a visiting researcher at Apple within the Siri Speech team.&lt;/p&gt;
 &lt;p&gt;As a postdoctoral researcher at &lt;a href=&#34;https://lium.univ-lemans.fr&#34;&gt;LIUM&lt;/a&gt;, she worked on neural end-to-end systems for the detection of named entities, speech understanding, as  part of the Chist-Era &lt;a href=&#34;https://projets-lium.univ-lemans.fr/m2cr/&#34;&gt;M2CR&lt;/a&gt; (Multimodal Multilingual Continuous Representation for Human Language Understanding) project.&lt;/p&gt;
-&lt;p&gt;Her main research interests are continuous representations learning and their application to natural language processing and speech recognition tasks. She is also interested in semantic textual similarity task and its application to dialog system.&lt;/p&gt;
+&lt;p&gt;Her main research interests are continuous representations learning and their application to natural language processing and speech recognition tasks, semantic information extraction form spoken and writen language and dialog system.&lt;/p&gt;
 </description>
     </item>
     

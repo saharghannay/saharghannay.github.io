@@ -5,12 +5,20 @@
     <link>https://saharghannay.github.io/publication/</link>
       <atom:link href="https://saharghannay.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 04 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 08 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://saharghannay.github.io/img/icon-192.png</url>
       <title>Publications</title>
       <link>https://saharghannay.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Neural Networks approaches focused on French Spoken Language Understanding: application to the MEDIA Evaluation Task</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/ghannay-2020-coling/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/ghannay-2020-coling/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Error Analysis Applied to End-to-End Spoken Language Understanding</title>

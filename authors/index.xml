@@ -37,7 +37,7 @@
     </item>
     
     <item>
-      <title>**Antoine Caubrière**</title>
+      <title>Antoine Caubrière</title>
       <link>https://saharghannay.github.io/authors/antoine-caubriere/</link>
       <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
       <guid>https://saharghannay.github.io/authors/antoine-caubriere/</guid>
@@ -93,6 +93,14 @@
     </item>
     
     <item>
+      <title>**Ghannay Sahar**</title>
+      <link>https://saharghannay.github.io/authors/ghannay-sahar/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/authors/ghannay-sahar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>**Juan Manuel Coria**</title>
       <link>https://saharghannay.github.io/authors/juan-manuel-coria/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
@@ -121,14 +129,6 @@
       <link>https://saharghannay.github.io/authors/echegoyen-guillermo/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://saharghannay.github.io/authors/echegoyen-guillermo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ghannay Sahar</title>
-      <link>https://saharghannay.github.io/authors/ghannay-sahar/</link>
-      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://saharghannay.github.io/authors/ghannay-sahar/</guid>
       <description></description>
     </item>
     
@@ -265,7 +265,7 @@
       <link>https://saharghannay.github.io/authors/sahar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://saharghannay.github.io/authors/sahar/</guid>
-      <description>&lt;p&gt;Sahar Ghannay is an associate professor at  Université Paris-Saclay, in the CNRS, &lt;a href=&#34;https://www.limsi.fr/en/&#34;&gt;LIMSI&lt;/a&gt; research center, since September 2018.&lt;/p&gt;
+      <description>&lt;p&gt;Sahar Ghannay is an associate professor at  Université Paris-Saclay, in the CNRS, &lt;a href=&#34;https://www.limsi.fr/en/&#34;&gt;LISN&lt;/a&gt; research center, since September 2018.&lt;/p&gt;
 &lt;p&gt;She received a PhD in Computer Science from Le Mans University on Septembre 2017.  Her thesis work is part of the ANR &lt;a href=&#34;https://anr.fr/Project-ANR-12-BS02-0006&#34;&gt;VERA&lt;/a&gt; (AdVanced ERror Analysis for speech recognition) project.
 During her PhD, she spent a few months as a visiting researcher at Apple within the Siri Speech team.&lt;/p&gt;
 &lt;p&gt;As a postdoctoral researcher at &lt;a href=&#34;https://lium.univ-lemans.fr&#34;&gt;LIUM&lt;/a&gt;, she worked on neural end-to-end systems for the detection of named entities, speech understanding, as  part of the Chist-Era &lt;a href=&#34;https://projets-lium.univ-lemans.fr/m2cr/&#34;&gt;M2CR&lt;/a&gt; (Multimodal Multilingual Continuous Representation for Human Language Understanding) project.&lt;/p&gt;

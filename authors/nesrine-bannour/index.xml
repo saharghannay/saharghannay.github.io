@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>**Nesrine Bannour** | Sahar Ghannay</title>
+    <link>https://saharghannay.github.io/authors/nesrine-bannour/</link>
+      <atom:link href="https://saharghannay.github.io/authors/nesrine-bannour/index.xml" rel="self" type="application/rss+xml" />
+    <description>**Nesrine Bannour**</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 10 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://saharghannay.github.io/img/icon-192.png</url>
+      <title>**Nesrine Bannour**</title>
+      <link>https://saharghannay.github.io/authors/nesrine-bannour/</link>
+    </image>
+    
+    <item>
+      <title>Evaluating the carbon footprint of {NLP} methods: a survey and analysis of existing tools</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/sustainlp_2021/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/sustainlp_2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

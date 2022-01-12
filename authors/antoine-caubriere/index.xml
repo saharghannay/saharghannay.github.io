@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>**Antoine Caubrière** | Sahar Ghannay</title>
+    <title>Antoine Caubrière | Sahar Ghannay</title>
     <link>https://saharghannay.github.io/authors/antoine-caubriere/</link>
       <atom:link href="https://saharghannay.github.io/authors/antoine-caubriere/index.xml" rel="self" type="application/rss+xml" />
-    <description>**Antoine Caubrière**</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 04 May 2020 00:00:00 +0000</lastBuildDate>
+    <description>Antoine Caubrière</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 22 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://saharghannay.github.io/img/icon-192.png</url>
-      <title>**Antoine Caubrière**</title>
+      <title>Antoine Caubrière</title>
       <link>https://saharghannay.github.io/authors/antoine-caubriere/</link>
     </image>
+    
+    <item>
+      <title>Where Are We in Semantic Concept Extraction for Spoken Language Understanding?</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/specom-2021-sg/</link>
+      <pubDate>Wed, 22 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/specom-2021-sg/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Error Analysis Applied to End-to-End Spoken Language Understanding</title>

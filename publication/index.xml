@@ -5,12 +5,36 @@
     <link>https://saharghannay.github.io/publication/</link>
       <atom:link href="https://saharghannay.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 08 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 17 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://saharghannay.github.io/img/icon-192.png</url>
       <title>Publications</title>
       <link>https://saharghannay.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>OVERLAP-AWARE LOW-LATENCY ONLINE SPEAKER DIARIZATION BASED ON END-TO-END LOCAL SEGMENTATION</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/asru-juan-2021/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/asru-juan-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluating the carbon footprint of {NLP} methods: a survey and analysis of existing tools</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/sustainlp_2021/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/sustainlp_2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Where Are We in Semantic Concept Extraction for Spoken Language Understanding?</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/specom-2021-sg/</link>
+      <pubDate>Wed, 22 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/specom-2021-sg/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Neural Networks approaches focused on French Spoken Language Understanding: application to the MEDIA Evaluation Task</title>

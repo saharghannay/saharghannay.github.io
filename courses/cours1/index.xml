@@ -88,7 +88,7 @@ They will be evaluated on the NER: Named Entity recognition task during the seco
 &lt;li&gt;Fasttext : &lt;a href=&#34;https://fasttext.cc/docs/en/support.html&#34;&gt;https://fasttext.cc/docs/en/support.html&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Corpus: &lt;a href=&#34;https://perso.limsi.fr/neveol/TP_ISD2020.zip&#34;&gt;https://perso.limsi.fr/neveol/TP_ISD2020.zip&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;The files &lt;code&gt;QUAERO_FrenchMed.ospl&lt;/code&gt; and&lt;code&gt; QUAERO_FrenchPress_ID.ospl&lt;/code&gt; will be used for learning embeddings. They contain corpora in “one sentence per line” format, with a segmentation of the tokens which are separated by spaces.&lt;/li&gt;
+&lt;li&gt;The files &lt;code&gt;QUAERO_FrenchMed_traindev.ospl&lt;/code&gt; et &lt;code&gt;QUAERO_FrenchPress_traindev.ospl&lt;/code&gt; will be used for learning embeddings. They contain corpora in “one sentence per line” format, with a segmentation of the tokens which are separated by spaces.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;

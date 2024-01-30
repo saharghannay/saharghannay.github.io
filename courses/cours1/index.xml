@@ -19,7 +19,7 @@
       <guid>https://saharghannay.github.io/courses/cours1/example1/</guid>
       <description>&lt;p&gt;[English version below]&lt;/p&gt;
 &lt;h1 id=&#34;objectif&#34;&gt;Objectif&lt;/h1&gt;
-&lt;p&gt;L&#39;objectif du TP est de construire et de comparer différents type de plongements lexicaux (embeddings de mots) en utilisant les bibliothèques &lt;code&gt;gensim&lt;/code&gt; et &lt;code&gt;fasttext&lt;/code&gt;.&lt;br&gt;
+&lt;p&gt;L&amp;rsquo;objectif du TP est de construire et de comparer différents type de plongements lexicaux (embeddings de mots) en utilisant les bibliothèques &lt;code&gt;gensim&lt;/code&gt; et &lt;code&gt;fasttext&lt;/code&gt;.&lt;br&gt;
 Ces embeddings seront entrainés sur deux corpus différents : corpus en domaine médical (QUAERO_FrenchMed) de petite taille et un corpus non médical (QUAERO_FrenchPress) de grande taille.
 Ils seront évalués sur la tâche de détection d’entités nommées (NER : Named Entity recognition)  pendant le TP2 (l’après midi).&lt;/p&gt;
 &lt;p&gt;Vous êtes invités à utiliser les approches &lt;strong&gt;word2vec&lt;/strong&gt; (Cbow, skipgram) et &lt;strong&gt;fasttext&lt;/strong&gt; (Cbow).&lt;/p&gt;
@@ -29,11 +29,11 @@ Ils seront évalués sur la tâche de détection d’entités nommées (NER : N
 &lt;li&gt;Fasttext : &lt;a href=&#34;https://fasttext.cc/docs/en/support.html&#34;&gt;https://fasttext.cc/docs/en/support.html&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Corpus: &lt;a href=&#34;https://perso.limsi.fr/neveol/TP_ISD2020.zip&#34;&gt;https://perso.limsi.fr/neveol/TP_ISD2020.zip&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;Les fichiers &lt;code&gt;QUAERO_FrenchMed_traindev.ospl&lt;/code&gt; et &lt;code&gt;QUAERO_FrenchPress_traindev.ospl&lt;/code&gt; seront utilisés pour l&#39;apprentissage des embeddings. Ils contiennent des corpus au format «une phrase par ligne», avec une segmentation des tokens qui sont séparés par des espaces.&lt;/li&gt;
+&lt;li&gt;Les fichiers &lt;code&gt;QUAERO_FrenchMed_traindev.ospl&lt;/code&gt; et &lt;code&gt;QUAERO_FrenchPress_traindev.ospl&lt;/code&gt; seront utilisés pour l&amp;rsquo;apprentissage des embeddings. Ils contiennent des corpus au format «une phrase par ligne», avec une segmentation des tokens qui sont séparés par des espaces.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;outils-ncessaires&#34;&gt;Outils nécessaires&lt;/h1&gt;
+&lt;h1 id=&#34;outils-nécessaires&#34;&gt;Outils nécessaires&lt;/h1&gt;
 &lt;p&gt;Avant de commencer le TP, Je vous invite à suivre les étapes suivantes pour installer les outils :&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;# Créer l&#39;environnement de travail «miniconda»
 # Télécharger le fichier et l&#39;installer comme suit :
@@ -44,30 +44,30 @@ Ils seront évalués sur la tâche de détection d’entités nommées (NER : N
   conda create -n myenv python=3.6
   Conda activate myenv
 # Installer les outils nécessaires pour la création de plongements lexicaux
-  pip install gensim==0.12.0
+  pip install gensim 
   pip install fasttext 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h1 id=&#34;apprentissage-des-embeddings-de-mot&#34;&gt;Apprentissage des embeddings de mot&lt;/h1&gt;
-&lt;p&gt;La première étape de votre travail va être de créer des scripts python et bash permettant d&#39;apprendre les différentes approches d’embeddings &lt;strong&gt;word2vec&lt;/strong&gt; (Cbow, skipgram) et &lt;strong&gt;fasttext&lt;/strong&gt; (Cbow) sur les deux corpus médical et non médical &lt;strong&gt;QUAERO_FrenchMed&lt;/strong&gt; et &lt;strong&gt;QUAERO_FrenchPress&lt;/strong&gt; (au total 6 embeddings).&lt;/p&gt;
+&lt;p&gt;La première étape de votre travail va être de créer des scripts python et bash permettant d&amp;rsquo;apprendre les différentes approches d’embeddings &lt;strong&gt;word2vec&lt;/strong&gt; (Cbow, skipgram) et &lt;strong&gt;fasttext&lt;/strong&gt; (Cbow) sur les deux corpus médical et non médical &lt;strong&gt;QUAERO_FrenchMed&lt;/strong&gt; et &lt;strong&gt;QUAERO_FrenchPress&lt;/strong&gt; (au total 6 embeddings).&lt;/p&gt;
 &lt;p&gt;Suivez les étapes nécessaires dans la documentation pour créer et sauvegarder les modèles et les embeddings de mots.&lt;/p&gt;
-&lt;p&gt;Vous pouvez utiliser ces hyper-paramètres pour l&#39;apprentissage des embeddings : &lt;code&gt;dim=100&lt;/code&gt;, &lt;code&gt;min_count=1&lt;/code&gt;.&lt;/p&gt;
-&lt;h1 id=&#34;similarit-smantique&#34;&gt;Similarité sémantique&lt;/h1&gt;
-&lt;p&gt;La deuxième étape consiste à trouver les mots les plus proches d&#39;un mot donné en s&#39;appuyant sur le calcul de similarité cosinus.
+&lt;p&gt;Vous pouvez utiliser ces hyper-paramètres pour l&amp;rsquo;apprentissage des embeddings : &lt;code&gt;dim=100&lt;/code&gt;, &lt;code&gt;min_count=1&lt;/code&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;similarité-sémantique&#34;&gt;Similarité sémantique&lt;/h1&gt;
+&lt;p&gt;La deuxième étape consiste à trouver les mots les plus proches d&amp;rsquo;un mot donné en s&amp;rsquo;appuyant sur le calcul de similarité cosinus.
 Plusieurs évaluations à faire :&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Comparer des  d&#39;embeddings entrainés sur le même corpus :
+&lt;li&gt;Comparer des  d&amp;rsquo;embeddings entrainés sur le même corpus :
 &lt;ul&gt;
-&lt;li&gt;tester l&#39;impact des approches (skipgram, cbow, fasttext) sur le résultats&lt;/li&gt;
+&lt;li&gt;tester l&amp;rsquo;impact des approches (skipgram, cbow, fasttext) sur le résultats&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Comparer des embeddings (même approche) entrainés sur de corpus différents (médical et non médical) :
 &lt;ul&gt;
-&lt;li&gt;tester l&#39;impact de données (type et quantité) sur les résultats&lt;/li&gt;
+&lt;li&gt;tester l&amp;rsquo;impact de données (type et quantité) sur les résultats&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Voici la liste de mots candidats :  &lt;code&gt;patient, traitement, maladie, solution, jaune&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Pour l&#39;évaluation vous pouvez utiliser soit :&lt;/p&gt;
+&lt;p&gt;Pour l&amp;rsquo;évaluation vous pouvez utiliser soit :&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;la méthode &lt;code&gt;spatial&lt;/code&gt; de la bibliothèque python scipy, dans ce cas, vous devez charger les embeddings construits, et cherchez pour un mot donné la liste des 10 mots les plus proches&lt;/li&gt;
 &lt;li&gt;la méthode &lt;code&gt;most_similar&lt;/code&gt; du gensim, dans ce cas, vous devez charger les modèles sauvegardés
@@ -129,7 +129,7 @@ Several evaluations to do:&lt;/p&gt;
 &lt;p&gt;For the evaluation you can use either:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;spatial&lt;/code&gt; method of the python scipy library, in this case, you must load the embeddings vectors, and search for a given word for the list of the 10 closest words&lt;/li&gt;
-&lt;li&gt;gensim&#39;s &lt;code&gt;most_similar&lt;/code&gt; method, in this case you have to load the saved models
+&lt;li&gt;gensim&amp;rsquo;s &lt;code&gt;most_similar&lt;/code&gt; method, in this case you have to load the saved models
 &lt;ul&gt;
 &lt;li&gt;you can use gensim to load word2vec and fasttext models&lt;/li&gt;
 &lt;/ul&gt;
@@ -145,7 +145,7 @@ Several evaluations to do:&lt;/p&gt;
       <guid>https://saharghannay.github.io/courses/cours1/example2/</guid>
       <description>&lt;p&gt;[English version below]&lt;/p&gt;
 &lt;h1 id=&#34;objectif&#34;&gt;Objectif&lt;/h1&gt;
-&lt;p&gt;L&#39;objectif du TP est de construire et de comparer différents modèles de reconnaissance d&#39;entités nommées à partir des plongements lexicaux (embeddings) construits lors du TP 1. Nous utiliserons un modèle neuronal LSTM implémenté par Ma et Hovy&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;objectif du TP est de construire et de comparer différents modèles de reconnaissance d&amp;rsquo;entités nommées à partir des plongements lexicaux (embeddings) construits lors du TP 1. Nous utiliserons un modèle neuronal LSTM implémenté par Ma et Hovy&lt;/p&gt;
 &lt;p&gt;Vous êtes invités à construire plusieurs modèles pour chaque corpus de travail (voir ci-dessous) en faisant varier les paramètres suivants afin d’observer leur impact sur les performances de reconnaissance d’entités :&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;taille du jeu d’entraînement ;&lt;/li&gt;
@@ -155,10 +155,10 @@ Several evaluations to do:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;ressources&#34;&gt;Ressources&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;L&#39;outils &lt;code&gt;https://github.com/XuezheMax/NeuroNLP2&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;L&amp;rsquo;outils &lt;code&gt;https://github.com/XuezheMax/NeuroNLP2&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Corpus: &lt;a href=&#34;https://perso.limsi.fr/neveol/TP_ISD2020.zip&#34;&gt;https://perso.limsi.fr/neveol/TP_ISD2020.zip&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;outils-ncessaires&#34;&gt;Outils nécessaires&lt;/h1&gt;
+&lt;h1 id=&#34;outils-nécessaires&#34;&gt;Outils nécessaires&lt;/h1&gt;
 &lt;p&gt;Veuillez installer cet outil dans votre environnement de travail.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;# Installer l&#39;outil nécessaire pour la reconnaissance d&#39;entités nommées
   git clone https://github.com/XuezheMax/NeuroNLP2.git
@@ -170,16 +170,16 @@ Several evaluations to do:&lt;/p&gt;
   pip install .
 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h1 id=&#34;prsentation-rapide-des-corpus&#34;&gt;Présentation rapide des corpus :&lt;/h1&gt;
-&lt;p&gt;Nous utiliserons deux corpus annotés en entités, l’un issu du domaine médical (QUAERO_FrenchMed) de petit taille et l&#39;autre issu de la presse (QUAERO_FrenchPress) de plus grande taille.&lt;/p&gt;
+&lt;h1 id=&#34;présentation-rapide-des-corpus&#34;&gt;Présentation rapide des corpus :&lt;/h1&gt;
+&lt;p&gt;Nous utiliserons deux corpus annotés en entités, l’un issu du domaine médical (QUAERO_FrenchMed) de petit taille et l&amp;rsquo;autre issu de la presse (QUAERO_FrenchPress) de plus grande taille.&lt;/p&gt;
 &lt;p&gt;Ces corpus vous sont fournis dans un format similaire au format conll : ils contiennent cinq colonnes séparées par des espaces.&lt;/p&gt;
 &lt;p&gt;Chaque mot correspond à une ligne et les phrases sont séparées par une ligne vide.
-Les colonnes correspondent dans l&#39;ordre à l&#39;index du mot dans la phrase, le mot, deux autres colonnes qui ne seront pas utilisées et la dernière colonne représente l&#39;étiquette d&#39;entité nommée.&lt;/p&gt;
+Les colonnes correspondent dans l&amp;rsquo;ordre à l&amp;rsquo;index du mot dans la phrase, le mot, deux autres colonnes qui ne seront pas utilisées et la dernière colonne représente l&amp;rsquo;étiquette d&amp;rsquo;entité nommée.&lt;/p&gt;
 &lt;p&gt;Les étiquettes d’entité nommée sont au format I-TYPE qui indique que le mot fait partie d’une entité de type TYPE.
-Si deux entités de même type se suivent, le premier mot de la seconde aura pour étiquette B-TYPE pour indiquer qu’il s&#39;agit d’une nouvelle entité.
+Si deux entités de même type se suivent, le premier mot de la seconde aura pour étiquette B-TYPE pour indiquer qu’il s&amp;rsquo;agit d’une nouvelle entité.
 L’étiquette O indique que le mot ne fait pas partie d’une entité.&lt;/p&gt;
-&lt;h1 id=&#34;cration-de-modles&#34;&gt;Création de modèles&lt;/h1&gt;
-&lt;p&gt;La première étape de votre travail va être de créer des scripts shell permettant d’entraîner l&#39;outil sous différentes configurations:&lt;/p&gt;
+&lt;h1 id=&#34;création-de-modèles&#34;&gt;Création de modèles&lt;/h1&gt;
+&lt;p&gt;La première étape de votre travail va être de créer des scripts shell permettant d’entraîner l&amp;rsquo;outil sous différentes configurations:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Utiliser comme base de travail le script &lt;code&gt;NeuroNLP2/experiments/scripts/run_ner_conll03.sh&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;

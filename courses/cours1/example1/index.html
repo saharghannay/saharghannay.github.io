@@ -29,7 +29,7 @@
     
   
   <meta name="description" content="[English version below]
-Objectif L&#39;objectif du TP est de construire et de comparer différents type de plongements lexicaux (embeddings de mots) en utilisant les bibliothèques gensim et fasttext.
+Objectif L&rsquo;objectif du TP est de construire et de comparer différents type de plongements lexicaux (embeddings de mots) en utilisant les bibliothèques gensim et fasttext.
 Ces embeddings seront entrainés sur deux corpus différents : corpus en domaine médical (QUAERO_FrenchMed) de petite taille et un corpus non médical (QUAERO_FrenchPress) de grande taille. Ils seront évalués sur la tâche de détection d’entités nommées (NER : Named Entity recognition) pendant le TP2 (l’après midi).">
 
   
@@ -154,7 +154,7 @@ Ces embeddings seront entrainés sur deux corpus différents : corpus en domain
   <meta property="og:url" content="https://saharghannay.github.io/courses/cours1/example1/">
   <meta property="og:title" content="Word embeddings training | Sahar Ghannay">
   <meta property="og:description" content="[English version below]
-Objectif L&#39;objectif du TP est de construire et de comparer différents type de plongements lexicaux (embeddings de mots) en utilisant les bibliothèques gensim et fasttext.
+Objectif L&rsquo;objectif du TP est de construire et de comparer différents type de plongements lexicaux (embeddings de mots) en utilisant les bibliothèques gensim et fasttext.
 Ces embeddings seront entrainés sur deux corpus différents : corpus en domaine médical (QUAERO_FrenchMed) de petite taille et un corpus non médical (QUAERO_FrenchPress) de grande taille. Ils seront évalués sur la tâche de détection d’entités nommées (NER : Named Entity recognition) pendant le TP2 (l’après midi)."><meta property="og:image" content="https://saharghannay.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://saharghannay.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
@@ -492,7 +492,7 @@ Ces embeddings seront entrainés sur deux corpus différents : corpus en domain
           <div class="article-style">
             <p>[English version below]</p>
 <h1 id="objectif">Objectif</h1>
-<p>L'objectif du TP est de construire et de comparer différents type de plongements lexicaux (embeddings de mots) en utilisant les bibliothèques <code>gensim</code> et <code>fasttext</code>.<br>
+<p>L&rsquo;objectif du TP est de construire et de comparer différents type de plongements lexicaux (embeddings de mots) en utilisant les bibliothèques <code>gensim</code> et <code>fasttext</code>.<br>
 Ces embeddings seront entrainés sur deux corpus différents : corpus en domaine médical (QUAERO_FrenchMed) de petite taille et un corpus non médical (QUAERO_FrenchPress) de grande taille.
 Ils seront évalués sur la tâche de détection d’entités nommées (NER : Named Entity recognition)  pendant le TP2 (l’après midi).</p>
 <p>Vous êtes invités à utiliser les approches <strong>word2vec</strong> (Cbow, skipgram) et <strong>fasttext</strong> (Cbow).</p>
@@ -502,11 +502,11 @@ Ils seront évalués sur la tâche de détection d’entités nommées (NER : N
 <li>Fasttext : <a href="https://fasttext.cc/docs/en/support.html">https://fasttext.cc/docs/en/support.html</a></li>
 <li>Corpus: <a href="https://perso.limsi.fr/neveol/TP_ISD2020.zip">https://perso.limsi.fr/neveol/TP_ISD2020.zip</a>
 <ul>
-<li>Les fichiers <code>QUAERO_FrenchMed_traindev.ospl</code> et <code>QUAERO_FrenchPress_traindev.ospl</code> seront utilisés pour l'apprentissage des embeddings. Ils contiennent des corpus au format «une phrase par ligne», avec une segmentation des tokens qui sont séparés par des espaces.</li>
+<li>Les fichiers <code>QUAERO_FrenchMed_traindev.ospl</code> et <code>QUAERO_FrenchPress_traindev.ospl</code> seront utilisés pour l&rsquo;apprentissage des embeddings. Ils contiennent des corpus au format «une phrase par ligne», avec une segmentation des tokens qui sont séparés par des espaces.</li>
 </ul>
 </li>
 </ul>
-<h1 id="outils-ncessaires">Outils nécessaires</h1>
+<h1 id="outils-nécessaires">Outils nécessaires</h1>
 <p>Avant de commencer le TP, Je vous invite à suivre les étapes suivantes pour installer les outils :</p>
 <pre><code># Créer l'environnement de travail «miniconda»
 # Télécharger le fichier et l'installer comme suit :
@@ -517,30 +517,30 @@ Ils seront évalués sur la tâche de détection d’entités nommées (NER : N
   conda create -n myenv python=3.6
   Conda activate myenv
 # Installer les outils nécessaires pour la création de plongements lexicaux
-  pip install gensim==0.12.0
+  pip install gensim 
   pip install fasttext 
 </code></pre>
 <h1 id="apprentissage-des-embeddings-de-mot">Apprentissage des embeddings de mot</h1>
-<p>La première étape de votre travail va être de créer des scripts python et bash permettant d'apprendre les différentes approches d’embeddings <strong>word2vec</strong> (Cbow, skipgram) et <strong>fasttext</strong> (Cbow) sur les deux corpus médical et non médical <strong>QUAERO_FrenchMed</strong> et <strong>QUAERO_FrenchPress</strong> (au total 6 embeddings).</p>
+<p>La première étape de votre travail va être de créer des scripts python et bash permettant d&rsquo;apprendre les différentes approches d’embeddings <strong>word2vec</strong> (Cbow, skipgram) et <strong>fasttext</strong> (Cbow) sur les deux corpus médical et non médical <strong>QUAERO_FrenchMed</strong> et <strong>QUAERO_FrenchPress</strong> (au total 6 embeddings).</p>
 <p>Suivez les étapes nécessaires dans la documentation pour créer et sauvegarder les modèles et les embeddings de mots.</p>
-<p>Vous pouvez utiliser ces hyper-paramètres pour l'apprentissage des embeddings : <code>dim=100</code>, <code>min_count=1</code>.</p>
-<h1 id="similarit-smantique">Similarité sémantique</h1>
-<p>La deuxième étape consiste à trouver les mots les plus proches d'un mot donné en s'appuyant sur le calcul de similarité cosinus.
+<p>Vous pouvez utiliser ces hyper-paramètres pour l&rsquo;apprentissage des embeddings : <code>dim=100</code>, <code>min_count=1</code>.</p>
+<h1 id="similarité-sémantique">Similarité sémantique</h1>
+<p>La deuxième étape consiste à trouver les mots les plus proches d&rsquo;un mot donné en s&rsquo;appuyant sur le calcul de similarité cosinus.
 Plusieurs évaluations à faire :</p>
 <ul>
-<li>Comparer des  d'embeddings entrainés sur le même corpus :
+<li>Comparer des  d&rsquo;embeddings entrainés sur le même corpus :
 <ul>
-<li>tester l'impact des approches (skipgram, cbow, fasttext) sur le résultats</li>
+<li>tester l&rsquo;impact des approches (skipgram, cbow, fasttext) sur le résultats</li>
 </ul>
 </li>
 <li>Comparer des embeddings (même approche) entrainés sur de corpus différents (médical et non médical) :
 <ul>
-<li>tester l'impact de données (type et quantité) sur les résultats</li>
+<li>tester l&rsquo;impact de données (type et quantité) sur les résultats</li>
 </ul>
 </li>
 </ul>
 <p>Voici la liste de mots candidats :  <code>patient, traitement, maladie, solution, jaune</code></p>
-<p>Pour l'évaluation vous pouvez utiliser soit :</p>
+<p>Pour l&rsquo;évaluation vous pouvez utiliser soit :</p>
 <ul>
 <li>la méthode <code>spatial</code> de la bibliothèque python scipy, dans ce cas, vous devez charger les embeddings construits, et cherchez pour un mot donné la liste des 10 mots les plus proches</li>
 <li>la méthode <code>most_similar</code> du gensim, dans ce cas, vous devez charger les modèles sauvegardés
@@ -602,7 +602,7 @@ Several evaluations to do:</p>
 <p>For the evaluation you can use either:</p>
 <ul>
 <li><code>spatial</code> method of the python scipy library, in this case, you must load the embeddings vectors, and search for a given word for the list of the 10 closest words</li>
-<li>gensim's <code>most_similar</code> method, in this case you have to load the saved models
+<li>gensim&rsquo;s <code>most_similar</code> method, in this case you have to load the saved models
 <ul>
 <li>you can use gensim to load word2vec and fasttext models</li>
 </ul>
@@ -784,7 +784,7 @@ Several evaluations to do:</p>
     
     
     
-    <script src="/js/academic.min.3227ab49eed49815d1b4ba40154f74e7.js"></script>
+    <script src="/js/academic.min.9e159333b2de8b2229aa96e56defcd3d.js"></script>
 
     
 

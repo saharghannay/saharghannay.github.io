@@ -29,7 +29,7 @@
     
   
   <meta name="description" content="[English version below]
-Objectif L&#39;objectif du TP est de construire et de comparer différents modèles de reconnaissance d&#39;entités nommées à partir des plongements lexicaux (embeddings) construits lors du TP 1. Nous utiliserons un modèle neuronal LSTM implémenté par Ma et Hovy
+Objectif L&rsquo;objectif du TP est de construire et de comparer différents modèles de reconnaissance d&rsquo;entités nommées à partir des plongements lexicaux (embeddings) construits lors du TP 1. Nous utiliserons un modèle neuronal LSTM implémenté par Ma et Hovy
 Vous êtes invités à construire plusieurs modèles pour chaque corpus de travail (voir ci-dessous) en faisant varier les paramètres suivants afin d’observer leur impact sur les performances de reconnaissance d’entités :">
 
   
@@ -154,7 +154,7 @@ Vous êtes invités à construire plusieurs modèles pour chaque corpus de trava
   <meta property="og:url" content="https://saharghannay.github.io/courses/cours1/example2/">
   <meta property="og:title" content="Named entity recognition | Sahar Ghannay">
   <meta property="og:description" content="[English version below]
-Objectif L&#39;objectif du TP est de construire et de comparer différents modèles de reconnaissance d&#39;entités nommées à partir des plongements lexicaux (embeddings) construits lors du TP 1. Nous utiliserons un modèle neuronal LSTM implémenté par Ma et Hovy
+Objectif L&rsquo;objectif du TP est de construire et de comparer différents modèles de reconnaissance d&rsquo;entités nommées à partir des plongements lexicaux (embeddings) construits lors du TP 1. Nous utiliserons un modèle neuronal LSTM implémenté par Ma et Hovy
 Vous êtes invités à construire plusieurs modèles pour chaque corpus de travail (voir ci-dessous) en faisant varier les paramètres suivants afin d’observer leur impact sur les performances de reconnaissance d’entités :"><meta property="og:image" content="https://saharghannay.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://saharghannay.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
@@ -492,7 +492,7 @@ Vous êtes invités à construire plusieurs modèles pour chaque corpus de trava
           <div class="article-style">
             <p>[English version below]</p>
 <h1 id="objectif">Objectif</h1>
-<p>L'objectif du TP est de construire et de comparer différents modèles de reconnaissance d'entités nommées à partir des plongements lexicaux (embeddings) construits lors du TP 1. Nous utiliserons un modèle neuronal LSTM implémenté par Ma et Hovy</p>
+<p>L&rsquo;objectif du TP est de construire et de comparer différents modèles de reconnaissance d&rsquo;entités nommées à partir des plongements lexicaux (embeddings) construits lors du TP 1. Nous utiliserons un modèle neuronal LSTM implémenté par Ma et Hovy</p>
 <p>Vous êtes invités à construire plusieurs modèles pour chaque corpus de travail (voir ci-dessous) en faisant varier les paramètres suivants afin d’observer leur impact sur les performances de reconnaissance d’entités :</p>
 <ul>
 <li>taille du jeu d’entraînement ;</li>
@@ -502,10 +502,10 @@ Vous êtes invités à construire plusieurs modèles pour chaque corpus de trava
 </ul>
 <h1 id="ressources">Ressources</h1>
 <ul>
-<li>L'outils <code>https://github.com/XuezheMax/NeuroNLP2</code></li>
+<li>L&rsquo;outils <code>https://github.com/XuezheMax/NeuroNLP2</code></li>
 <li>Corpus: <a href="https://perso.limsi.fr/neveol/TP_ISD2020.zip">https://perso.limsi.fr/neveol/TP_ISD2020.zip</a></li>
 </ul>
-<h1 id="outils-ncessaires">Outils nécessaires</h1>
+<h1 id="outils-nécessaires">Outils nécessaires</h1>
 <p>Veuillez installer cet outil dans votre environnement de travail.</p>
 <pre><code># Installer l'outil nécessaire pour la reconnaissance d'entités nommées
   git clone https://github.com/XuezheMax/NeuroNLP2.git
@@ -517,16 +517,16 @@ Vous êtes invités à construire plusieurs modèles pour chaque corpus de trava
   pip install .
 
 </code></pre>
-<h1 id="prsentation-rapide-des-corpus">Présentation rapide des corpus :</h1>
-<p>Nous utiliserons deux corpus annotés en entités, l’un issu du domaine médical (QUAERO_FrenchMed) de petit taille et l'autre issu de la presse (QUAERO_FrenchPress) de plus grande taille.</p>
+<h1 id="présentation-rapide-des-corpus">Présentation rapide des corpus :</h1>
+<p>Nous utiliserons deux corpus annotés en entités, l’un issu du domaine médical (QUAERO_FrenchMed) de petit taille et l&rsquo;autre issu de la presse (QUAERO_FrenchPress) de plus grande taille.</p>
 <p>Ces corpus vous sont fournis dans un format similaire au format conll : ils contiennent cinq colonnes séparées par des espaces.</p>
 <p>Chaque mot correspond à une ligne et les phrases sont séparées par une ligne vide.
-Les colonnes correspondent dans l'ordre à l'index du mot dans la phrase, le mot, deux autres colonnes qui ne seront pas utilisées et la dernière colonne représente l'étiquette d'entité nommée.</p>
+Les colonnes correspondent dans l&rsquo;ordre à l&rsquo;index du mot dans la phrase, le mot, deux autres colonnes qui ne seront pas utilisées et la dernière colonne représente l&rsquo;étiquette d&rsquo;entité nommée.</p>
 <p>Les étiquettes d’entité nommée sont au format I-TYPE qui indique que le mot fait partie d’une entité de type TYPE.
-Si deux entités de même type se suivent, le premier mot de la seconde aura pour étiquette B-TYPE pour indiquer qu’il s'agit d’une nouvelle entité.
+Si deux entités de même type se suivent, le premier mot de la seconde aura pour étiquette B-TYPE pour indiquer qu’il s&rsquo;agit d’une nouvelle entité.
 L’étiquette O indique que le mot ne fait pas partie d’une entité.</p>
-<h1 id="cration-de-modles">Création de modèles</h1>
-<p>La première étape de votre travail va être de créer des scripts shell permettant d’entraîner l'outil sous différentes configurations:</p>
+<h1 id="création-de-modèles">Création de modèles</h1>
+<p>La première étape de votre travail va être de créer des scripts shell permettant d’entraîner l&rsquo;outil sous différentes configurations:</p>
 <ul>
 <li>Utiliser comme base de travail le script <code>NeuroNLP2/experiments/scripts/run_ner_conll03.sh</code></li>
 </ul>
@@ -774,7 +774,7 @@ You may use this Perl script : NeuroNLP2/experiments/eval/conll03eval.v2</li>
     
     
     
-    <script src="/js/academic.min.3227ab49eed49815d1b4ba40154f74e7.js"></script>
+    <script src="/js/academic.min.9e159333b2de8b2229aa96e56defcd3d.js"></script>
 
     
 

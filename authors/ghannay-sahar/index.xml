@@ -5,12 +5,52 @@
     <link>https://saharghannay.github.io/authors/ghannay-sahar/</link>
       <atom:link href="https://saharghannay.github.io/authors/ghannay-sahar/index.xml" rel="self" type="application/rss+xml" />
     <description>Ghannay Sahar</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://saharghannay.github.io/img/icon-192.png</url>
       <title>Ghannay Sahar</title>
       <link>https://saharghannay.github.io/authors/ghannay-sahar/</link>
     </image>
+    
+    <item>
+      <title>Explicit Knowledge Integration for Knowledge-Aware Visual Question Answering about Named Entities</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/acm23/</link>
+      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/acm23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impact Analysis of the Use of Speech and Language Models Pretrained by Self-Supersivion for Spoken Language Understanding</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/lrec22_2/</link>
+      <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/lrec22_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Spoken Language Understanding {MEDIA} Benchmark Dataset in the Era of Deep Learning: data updates, training and evaluation tools</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/lrec22_1/</link>
+      <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/lrec22_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Le benchmark MEDIA revisité : données, outils et évaluation dans un contexte d&#39;apprentissage profond</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/jep_2022_2/</link>
+      <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/jep_2022_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analyzing BERT Cross-lingual Transfer Capabilities in Continual Sequence Labeling</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/wp2022/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/wp2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Cooking Knowledge Graph and Benchmark for Question Answering Evaluation in Lifelong Learning Scenarios</title>

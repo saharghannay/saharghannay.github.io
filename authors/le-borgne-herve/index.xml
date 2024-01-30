@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Le Borgne Hervé | Sahar Ghannay</title>
+    <link>https://saharghannay.github.io/authors/le-borgne-herve/</link>
+      <atom:link href="https://saharghannay.github.io/authors/le-borgne-herve/index.xml" rel="self" type="application/rss+xml" />
+    <description>Le Borgne Hervé</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://saharghannay.github.io/img/icon-192.png</url>
+      <title>Le Borgne Hervé</title>
+      <link>https://saharghannay.github.io/authors/le-borgne-herve/</link>
+    </image>
+    
+    <item>
+      <title>Explicit Knowledge Integration for Knowledge-Aware Visual Question Answering about Named Entities</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/acm23/</link>
+      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/acm23/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

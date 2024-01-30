@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Caubrière Antoine | Sahar Ghannay</title>
+    <link>https://saharghannay.github.io/authors/caubriere-antoine/</link>
+      <atom:link href="https://saharghannay.github.io/authors/caubriere-antoine/index.xml" rel="self" type="application/rss+xml" />
+    <description>Caubrière Antoine</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://saharghannay.github.io/img/icon-192.png</url>
+      <title>Caubrière Antoine</title>
+      <link>https://saharghannay.github.io/authors/caubriere-antoine/</link>
+    </image>
+    
+    <item>
+      <title>Impact Analysis of the Use of Speech and Language Models Pretrained by Self-Supersivion for Spoken Language Understanding</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/lrec22_2/</link>
+      <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/lrec22_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Spoken Language Understanding {MEDIA} Benchmark Dataset in the Era of Deep Learning: data updates, training and evaluation tools</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/lrec22_1/</link>
+      <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/lrec22_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Le benchmark MEDIA revisité : données, outils et évaluation dans un contexte d&#39;apprentissage profond</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/jep_2022_2/</link>
+      <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/jep_2022_2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

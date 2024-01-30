@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>**OralieCattan** | Sahar Ghannay</title>
+    <link>https://saharghannay.github.io/authors/oraliecattan/</link>
+      <atom:link href="https://saharghannay.github.io/authors/oraliecattan/index.xml" rel="self" type="application/rss+xml" />
+    <description>**OralieCattan**</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 18 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://saharghannay.github.io/img/icon-192.png</url>
+      <title>**OralieCattan**</title>
+      <link>https://saharghannay.github.io/authors/oraliecattan/</link>
+    </image>
+    
+    <item>
+      <title>Benchmarking Transformers-based models on French Spoken Language Understanding tasks</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/is2022/</link>
+      <pubDate>Sun, 18 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/is2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Étude comparative de modèles Transformers en compréhension de la parole en français</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/jep_2022_1/</link>
+      <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/jep_2022_1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

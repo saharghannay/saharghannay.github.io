@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>**Coria Juan Manuel** | Sahar Ghannay</title>
+    <link>https://saharghannay.github.io/authors/coria-juan-manuel/</link>
+      <atom:link href="https://saharghannay.github.io/authors/coria-juan-manuel/index.xml" rel="self" type="application/rss+xml" />
+    <description>**Coria Juan Manuel**</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://saharghannay.github.io/img/icon-192.png</url>
+      <title>**Coria Juan Manuel**</title>
+      <link>https://saharghannay.github.io/authors/coria-juan-manuel/</link>
+    </image>
+    
+    <item>
+      <title>Analyzing BERT Cross-lingual Transfer Capabilities in Continual Sequence Labeling</title>
+      <link>https://saharghannay.github.io/publication/conference-paper/wp2022/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://saharghannay.github.io/publication/conference-paper/wp2022/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

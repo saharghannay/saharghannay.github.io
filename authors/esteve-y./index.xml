@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Estève Y. | Sahar Ghannay</title>
+    <link>https://saharghannay.github.io/authors/esteve-y./</link>
+      <atom:link href="https://saharghannay.github.io/authors/esteve-y./index.xml" rel="self" type="application/rss+xml" />
+    <description>Estève Y.</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://saharghannay.github.io/img/icon-192.png</url>
+      <title>Estève Y.</title>
+      <link>https://saharghannay.github.io/authors/esteve-y./</link>
+    </image>
+    
+  </channel>
+</rss>

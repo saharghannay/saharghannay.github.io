@@ -34,16 +34,10 @@ Ils seront évalués sur la tâche de détection d’entités nommées (NER : N
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;outils-nécessaires&#34;&gt;Outils nécessaires&lt;/h1&gt;
-&lt;p&gt;Avant de commencer le TP, Je vous invite à suivre les étapes suivantes pour installer les outils :&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;# Créer l&#39;environnement de travail «miniconda»
-# Télécharger le fichier et l&#39;installer comme suit :
- wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
- chmod +x Miniconda3-latest-Linux-x86_64.sh
-./Miniconda3-latest-Linux-x86_64.sh
-# Créer l&#39;environnement et l&#39;activer
-  conda create -n myenv python=3.6
-  Conda activate myenv
-# Installer les outils nécessaires pour la création de plongements lexicaux
+&lt;p&gt;Il est recommandé d&amp;rsquo;utiliser google colab pour travailler le TP.
+Avant de commencer il faut installer les outils nécessaires.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+# Installer les outils nécessaires pour la création des embeddings
   pip install gensim 
   pip install fasttext 
 &lt;/code&gt;&lt;/pre&gt;
@@ -93,17 +87,10 @@ They will be evaluated on the NER: Named Entity recognition task during the seco
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;requirements&#34;&gt;Requirements&lt;/h1&gt;
-&lt;p&gt;Before starting, I invite you to follow the next steps to install the tools:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;# Create the &amp;quot;miniconda&amp;quot; environment
-# Download the file and install it as follows:
- wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
- chmod +x Miniconda3-latest-Linux-x86_64.sh
-./Miniconda3-latest-Linux-x86_64.sh
-# Create the environment and activate it
-  conda create -n myenv python=3.6
-  Conda activate myenv
+&lt;p&gt;It is recommended to use Google Colab to work on the TP. Before starting, you must install the necessary tools.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
 # Install the required tools to train word embeddings
-  pip install gensim==0.12.0
+  pip install gensim 
   pip install fasttext 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h1 id=&#34;word-embeddings-training&#34;&gt;Word embeddings training&lt;/h1&gt;
@@ -145,110 +132,64 @@ Several evaluations to do:&lt;/p&gt;
       <guid>https://saharghannay.github.io/courses/cours1/example2/</guid>
       <description>&lt;p&gt;[English version below]&lt;/p&gt;
 &lt;h1 id=&#34;objectif&#34;&gt;Objectif&lt;/h1&gt;
-&lt;p&gt;L&amp;rsquo;objectif du TP est de construire et de comparer différents modèles de reconnaissance d&amp;rsquo;entités nommées à partir des plongements lexicaux (embeddings) construits lors du TP 1. Nous utiliserons un modèle neuronal LSTM implémenté par Ma et Hovy&lt;/p&gt;
-&lt;p&gt;Vous êtes invités à construire plusieurs modèles pour chaque corpus de travail (voir ci-dessous) en faisant varier les paramètres suivants afin d’observer leur impact sur les performances de reconnaissance d’entités :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;taille du jeu d’entraînement ;&lt;/li&gt;
-&lt;li&gt;taille du corpus utilisé pour créer les plongements lexicaux&lt;/li&gt;
-&lt;li&gt;modèle des plongements lexicaux&lt;/li&gt;
-&lt;li&gt;adéquation entre le domaine du corpus utilisé pour la reconnaissance d’entités et les plongements.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;L&amp;rsquo;objectif du TP est d&amp;rsquo;évaluer la performance des embeddings appris dans le TP1 ainsi qu&amp;rsquo;un modèle Transformer (BERT) sur la tâche d&amp;rsquo;entités nommées (NER) dans le domaine médicale.
+Un modèle NER par type d&amp;rsquo;embeddings sera appris et évalué.&lt;/p&gt;
 &lt;h1 id=&#34;ressources&#34;&gt;Ressources&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;L&amp;rsquo;outils &lt;code&gt;https://github.com/XuezheMax/NeuroNLP2&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Les &lt;a href=&#34;https://saharghannay.github.io/files/scripts.zip&#34; target=&#34;_blank&#34;&gt; scripts &lt;/a&gt; à adapter pour la tâche de classification de séquence, un pour exécuter les modèles LSTM et CNN, un autre pour exécuter les modèles Transformer (BERT)&lt;/li&gt;
 &lt;li&gt;Corpus: &lt;a href=&#34;https://perso.limsi.fr/neveol/TP_ISD2020.zip&#34;&gt;https://perso.limsi.fr/neveol/TP_ISD2020.zip&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;outils-nécessaires&#34;&gt;Outils nécessaires&lt;/h1&gt;
-&lt;p&gt;Veuillez installer cet outil dans votre environnement de travail.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;# Installer l&#39;outil nécessaire pour la reconnaissance d&#39;entités nommées
-  git clone https://github.com/XuezheMax/NeuroNLP2.git
-  pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
-  pip install overrides
-  pip uninstall scipy
-  pip --no-cache-dir install scipy==1.1
-  cd NeuroNLP2
-  pip install .
-
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Veuillez installer les dépendances nécessaires pour executer les scripts&lt;/p&gt;
 &lt;h1 id=&#34;présentation-rapide-des-corpus&#34;&gt;Présentation rapide des corpus :&lt;/h1&gt;
-&lt;p&gt;Nous utiliserons deux corpus annotés en entités, l’un issu du domaine médical (QUAERO_FrenchMed) de petit taille et l&amp;rsquo;autre issu de la presse (QUAERO_FrenchPress) de plus grande taille.&lt;/p&gt;
-&lt;p&gt;Ces corpus vous sont fournis dans un format similaire au format conll : ils contiennent cinq colonnes séparées par des espaces.&lt;/p&gt;
+&lt;p&gt;Nous utiliserons un corpus annoté en entités issu du domaine médical (QUAERO_FrenchMed) de petit taille.&lt;/p&gt;
+&lt;p&gt;Ce corpus vous est fourni dans un format similaire au format conll : il contient cinq colonnes séparées par des espaces.&lt;/p&gt;
 &lt;p&gt;Chaque mot correspond à une ligne et les phrases sont séparées par une ligne vide.
 Les colonnes correspondent dans l&amp;rsquo;ordre à l&amp;rsquo;index du mot dans la phrase, le mot, deux autres colonnes qui ne seront pas utilisées et la dernière colonne représente l&amp;rsquo;étiquette d&amp;rsquo;entité nommée.&lt;/p&gt;
 &lt;p&gt;Les étiquettes d’entité nommée sont au format I-TYPE qui indique que le mot fait partie d’une entité de type TYPE.
 Si deux entités de même type se suivent, le premier mot de la seconde aura pour étiquette B-TYPE pour indiquer qu’il s&amp;rsquo;agit d’une nouvelle entité.
 L’étiquette O indique que le mot ne fait pas partie d’une entité.&lt;/p&gt;
 &lt;h1 id=&#34;création-de-modèles&#34;&gt;Création de modèles&lt;/h1&gt;
-&lt;p&gt;La première étape de votre travail va être de créer des scripts shell permettant d’entraîner l&amp;rsquo;outil sous différentes configurations:&lt;/p&gt;
+&lt;p&gt;Afin de réaliser le travail il faut adapter les scripts pour la tâche de NER (étiquetage de séquence): principalement le chargement des données, la fonction objective (si besoin)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Utiliser comme base de travail le script &lt;code&gt;NeuroNLP2/experiments/scripts/run_ner_conll03.sh&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Ajuster les paramètres concernant : le type de plongements, le fichier contenent votre vecteur de plongements,  &amp;ndash;embedding_dict le répertoire de sortie désiré &amp;ndash;model_path , le corpus &amp;ndash;train  &amp;ndash;dev &amp;ndash;test&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pour les besoins du TP (temps de calcul des modèles), vous pouvez ajuster certains paramètres dans la configuration du modèle : diminuer le nombre d’epoch &amp;ndash;num_epochs 20, et de l’outil (script &lt;code&gt;NeuroNLP2/experiments/ configs/ner/conll03.json&lt;/code&gt; ; par exemple, &amp;ldquo;crf&amp;rdquo;: false,  &amp;ldquo;hidden_size&amp;rdquo;: 128, &amp;ldquo;out_features&amp;rdquo;: 64,).&lt;/li&gt;
+&lt;li&gt;En plus de cela, dans le script cnn_classification.py, les embeddings sont initialisés aléatoirement, il faut faire les modifications nécessaires pour les initialisés avec les embeddings appris dans le TP1.&lt;/li&gt;
+&lt;li&gt;Dans le script transformer_classification il faut changer &amp;lsquo;AutoModelForSequenceClassification&amp;rsquo;  par &amp;lsquo;AutoModelForTokenClassification&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;Les résultats seront évaluer en termes de rappel, précision et F1&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;questions&#34;&gt;Questions&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;Quel modèle obtient les meilleures performances sur chacun des corpus ?&lt;/li&gt;
-&lt;li&gt;Voyez vous des différences entre les deux corpus ?&lt;/li&gt;
-&lt;li&gt;Comparer ces résultats avec une méthode « baseline » simple à base de règles
-Pour cela, vous pourrez utiliser le script Perl &lt;code&gt;NeuroNLP2/experiments/eval/conll03eval.v2&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Pour aller plus loin :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Comparer le corpus QUAERO_FrenchMed utilisé en TP avec celui distribué lors de la campagne CLEF eHealth 2016 : &lt;code&gt;https://quaerofrenchmed.limsi.fr/&lt;/code&gt; Constatez vous des différences ? Si oui, lesquelles ?&lt;/li&gt;
-&lt;li&gt;Les résultats obtenus en TP peuvent-ils être comparés avec ceux obtenus lors de la campagne d’évaluation CLEF eHealth ? Pourquoi ?&lt;/li&gt;
+&lt;li&gt;Quel modèle obtient les meilleures performances ?&lt;/li&gt;
+&lt;li&gt;Voyez vous des différences entre les embeddings appris sur deux corpus différents de TP1 ?&lt;/li&gt;
+&lt;li&gt;Comparer ces résultats avec un modèle Transformer.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;objective&#34;&gt;Objective&lt;/h1&gt;
-&lt;p&gt;The objective of this lab session is to build and compare different models of named entity recognition using the word embeddings created during lab session 1. We will use the biLSTM model implemented by Ma and Hovy&lt;/p&gt;
-&lt;p&gt;In this lab session, you should attempt to create several models for each dataset (see below). You may observe the impact of the following parameters on anmed entity recognition performance:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;size of the training set ;&lt;/li&gt;
-&lt;li&gt;size of the corpus used to create the word embeddings ;&lt;/li&gt;
-&lt;li&gt;word embedding model ;&lt;/li&gt;
-&lt;li&gt;consistency between the domain of the corpus used for entity recognition and the word embeddings.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;The objective of the lab session is to evaluate the performance of the embeddings learned in TP1 as well as a Transformer model (BERT) on the named entity task (NER) in the medical domain.
+A NER model for each embeddings type will be learned and evaluated.&lt;/p&gt;
 &lt;h1 id=&#34;ressources-1&#34;&gt;Ressources&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;NER tool &lt;code&gt;https://github.com/XuezheMax/NeuroNLP2&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://saharghannay.github.io/files/scripts.zip&#34; target=&#34;_blank&#34;&gt; scripts &lt;/a&gt; to be adapted for the sequence classification task, one to run the LSTM and CNN models, another to run the Transformer (BERT) models&lt;/li&gt;
 &lt;li&gt;Corpus: &lt;a href=&#34;https://perso.limsi.fr/neveol/TP_ISD2020.zip&#34;&gt;https://perso.limsi.fr/neveol/TP_ISD2020.zip&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;requirements&#34;&gt;Requirements&lt;/h1&gt;
-&lt;p&gt;Please install this tool in your conda environement.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;# Install the necessary tool for named entity recognition  git clone https://github.com/XuezheMax/NeuroNLP2.git
-  pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
-  pip install overrides
-  pip uninstall scipy
-  pip --no-cache-dir install scipy==1.1
-  cd NeuroNLP2
-  pip install .
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Please install the dependencies to run the scripts&lt;/p&gt;
 &lt;h1 id=&#34;quick-overview-of-the-datasets&#34;&gt;Quick overview of the datasets :&lt;/h1&gt;
-&lt;p&gt;We will use two datasets with named entity annotations : a small medical corpus (QUAERO_FrenchMed) and a larger news corpus (QUAERO_FrenchPress).&lt;/p&gt;
-&lt;p&gt;The datasets are provided in conll-like format and contain five columns separated by white spaces. Each word (or token) corresponds to a line and sentences are separated by an empty line.&lt;/p&gt;
+&lt;p&gt;We will use a small medical corpus (QUAERO_FrenchMed) with named entity annotations.&lt;/p&gt;
+&lt;p&gt;The dataset is provided in conll-like format and contain five columns separated by white spaces. Each word (or token) corresponds to a line and sentences are separated by an empty line.&lt;/p&gt;
 &lt;p&gt;The columns correspond to: the token index within the sentence, the token, two columns that will not be used in this lab and finally, the last column contains the named entity tag.&lt;/p&gt;
 &lt;p&gt;Named entity tags are in the I-TYPE format, which indicates that the word is part of a TYPE entity. If two entities follow each other, the first word of the second entity will get a B-TYPE tag to indicate that it is a new entity. The O tag indicates that the word is not part of an entity.&lt;/p&gt;
 &lt;h1 id=&#34;ner-models-training&#34;&gt;NER models training&lt;/h1&gt;
-&lt;p&gt;The first step of your work will be to create shell scripts allowing you to train the tool in different configurations:&lt;/p&gt;
+&lt;p&gt;In order to do the work, it is necessary to adapt the scripts for the NER task (token classification): mainly the data loading, the objective function (if needed)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Use the &lt;code&gt;NeuroNLP2/experiments/scripts/run_ner_conll03.sh&lt;/code&gt; script as a working base&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Adjust the parameters concerning: the type of embedding, the file contains your vector of embeddings, &amp;ndash;embedding_dict the desired output directory &amp;ndash;model_path, the corpus &amp;ndash;train &amp;ndash;dev &amp;ndash;test&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Du to time constraint, you can adjust certain parameters in the model configuration: decrease the number of epoch &amp;ndash;num_epochs 20, and of the tool (&lt;code&gt;NeuroNLP2 script/experiments/configs/ner/conll03.json&lt;/code&gt;; for example, &amp;ldquo;crf&amp;rdquo;: false, &amp;ldquo;hidden_size&amp;rdquo;: 128, &amp;ldquo;out_features&amp;rdquo;: 64,).&lt;/li&gt;
+&lt;li&gt;In addition to that, in the cnn_classification.py script, the embeddings are initialized randomly, it is necessary to make the modifications to initialize them with the embeddings learned in TP1.&lt;/li&gt;
+&lt;li&gt;In the transformer_classification script, it is necessary to change &amp;lsquo;AutoModelForSequenceClassification&amp;rsquo; to &amp;lsquo;AutoModelForTokenClassification&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;The results will be evaluated in terms of recall, precision and F1&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;questions-1&#34;&gt;Questions&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Which model provides the best performance on each dataset?&lt;/li&gt;
-&lt;li&gt;Are there differences between the datasets ?&lt;/li&gt;
-&lt;li&gt;Compare the results of the models to a simple rule-based baseline method
-You may use this Perl script : NeuroNLP2/experiments/eval/conll03eval.v2&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Going further :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Compare the QUAERO_FrenchMed dataset used in this lab session with the one distributed in the CLEF eHealth 2016 shared task : &lt;a href=&#34;https://quaerofrenchmed.limsi.fr/&#34;&gt;https://quaerofrenchmed.limsi.fr/&lt;/a&gt; Do you see any différence ? Please, describe.&lt;/li&gt;
-&lt;li&gt;Can the results obtained in this lab session be directly compared to those of the CLEF eHealth shared task participants ? Please, explain.&lt;/li&gt;
+&lt;li&gt;Do you see any differences between the embeddings learned on two different corpora of TP1?&lt;/li&gt;
+&lt;li&gt;Compare these results with a Transformer model.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

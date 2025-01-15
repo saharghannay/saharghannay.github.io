@@ -507,16 +507,10 @@ Ils seront évalués sur la tâche de détection d’entités nommées (NER : N
 </li>
 </ul>
 <h1 id="outils-nécessaires">Outils nécessaires</h1>
-<p>Avant de commencer le TP, Je vous invite à suivre les étapes suivantes pour installer les outils :</p>
-<pre><code># Créer l'environnement de travail «miniconda»
-# Télécharger le fichier et l'installer comme suit :
- wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
- chmod +x Miniconda3-latest-Linux-x86_64.sh
-./Miniconda3-latest-Linux-x86_64.sh
-# Créer l'environnement et l'activer
-  conda create -n myenv python=3.6
-  Conda activate myenv
-# Installer les outils nécessaires pour la création de plongements lexicaux
+<p>Il est recommandé d&rsquo;utiliser google colab pour travailler le TP.
+Avant de commencer il faut installer les outils nécessaires.</p>
+<pre><code>
+# Installer les outils nécessaires pour la création des embeddings
   pip install gensim 
   pip install fasttext 
 </code></pre>
@@ -566,17 +560,10 @@ They will be evaluated on the NER: Named Entity recognition task during the seco
 </li>
 </ul>
 <h1 id="requirements">Requirements</h1>
-<p>Before starting, I invite you to follow the next steps to install the tools:</p>
-<pre><code># Create the &quot;miniconda&quot; environment
-# Download the file and install it as follows:
- wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
- chmod +x Miniconda3-latest-Linux-x86_64.sh
-./Miniconda3-latest-Linux-x86_64.sh
-# Create the environment and activate it
-  conda create -n myenv python=3.6
-  Conda activate myenv
+<p>It is recommended to use Google Colab to work on the TP. Before starting, you must install the necessary tools.</p>
+<pre><code>
 # Install the required tools to train word embeddings
-  pip install gensim==0.12.0
+  pip install gensim 
   pip install fasttext 
 </code></pre>
 <h1 id="word-embeddings-training">Word embeddings training</h1>

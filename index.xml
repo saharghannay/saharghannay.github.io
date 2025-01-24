@@ -72,9 +72,8 @@ Plusieurs évaluations à faire :&lt;/p&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;objective&#34;&gt;Objective&lt;/h1&gt;
-&lt;p&gt;The objective of this lab session is to build and compare different word embeddings aproaches using the &lt;code&gt;gensim&lt;/code&gt; and&lt;code&gt; fasttext&lt;/code&gt; libraries.
-These embeddings will be trained on two different corpora: a small medical corpus (QUAERO_FrenchMed) and a large non-medical corpus (QUAERO_FrenchPress).
-They will be evaluated on the NER: Named Entity recognition task during the second pratical session TP2 (afternoon).&lt;/p&gt;
+&lt;p&gt;The objective of this lab session is to build and compare different word embedding approaches using the &lt;code&gt;gensim&lt;/code&gt; and &lt;code&gt;fasttext&lt;/code&gt; libraries.
+These embeddings will be trained on two different corpora: a small medical corpus (QUAERO_FrenchMed) and a large non-medical corpus (QUAERO_FrenchPress). They will be evaluated on the NER: Named Entity recognition task during the second practical session.&lt;/p&gt;
 &lt;p&gt;You are invited to use the &lt;strong&gt;word2vec&lt;/strong&gt; (Cbow, skipgram) and &lt;strong&gt;fasttext&lt;/strong&gt; (Cbow) approaches.&lt;/p&gt;
 &lt;h1 id=&#34;ressources-1&#34;&gt;Ressources&lt;/h1&gt;
 &lt;ul&gt;

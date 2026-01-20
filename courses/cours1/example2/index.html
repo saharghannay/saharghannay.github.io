@@ -515,12 +515,19 @@ L’étiquette O indique que le mot ne fait pas partie d’une entité.</p>
 <li>En plus de cela, dans le script cnn_classification.py, les embeddings sont initialisés aléatoirement, il faut faire les modifications nécessaires pour les initialisés avec les embeddings appris dans le TP1.</li>
 <li>Dans le script transformer_classification il faut changer &lsquo;AutoModelForSequenceClassification&rsquo;  par &lsquo;AutoModelForTokenClassification&rsquo;</li>
 <li>Les résultats seront évaluer en termes de rappel, précision et F1</li>
+<li>Il est recommandé d’utiliser seqeval (<a href="https://pypi.org/project/seqeval/">https://pypi.org/project/seqeval/</a>) pour l’évaluation.</li>
 </ul>
 <h1 id="questions">Questions</h1>
 <ul>
 <li>Quel modèle obtient les meilleures performances ?</li>
 <li>Voyez vous des différences entre les embeddings appris sur deux corpus différents de TP1 ?</li>
 <li>Comparer ces résultats avec un modèle Transformer.</li>
+</ul>
+<h1 id="recommandations">Recommandations</h1>
+<ul>
+<li>Les rapports et scripts doivent être produits et envoyés avant la séance du 6 février.</li>
+<li>Ils résumeront le travail des deux séances de laboratoire.</li>
+<li>Pour la deuxième séance de laboratoire, le rapport résumera les résultats de la NER des différents modèles ainsi que les réponses aux questions.</li>
 </ul>
 <hr>
 <h1 id="objective">Objective</h1>
@@ -533,6 +540,7 @@ A NER model for each embeddings type will be learned and evaluated.</p>
 </ul>
 <h1 id="requirements">Requirements</h1>
 <p>Please install the dependencies to run the scripts</p>
+<p>It is recommended to use Google Colab to work on the TP.</p>
 <h1 id="quick-overview-of-the-datasets">Quick overview of the datasets :</h1>
 <p>We will use a small medical corpus (QUAERO_FrenchMed) with named entity annotations.</p>
 <p>The dataset is provided in conll-like format and contain five columns separated by white spaces. Each word (or token) corresponds to a line and sentences are separated by an empty line.</p>
@@ -544,12 +552,19 @@ A NER model for each embeddings type will be learned and evaluated.</p>
 <li>In addition to that, in the cnn_classification.py script, the embeddings are initialized randomly, it is necessary to make the modifications to initialize them with the embeddings learned in TP1.</li>
 <li>In the transformer_classification script, it is necessary to change &lsquo;AutoModelForSequenceClassification&rsquo; to &lsquo;AutoModelForTokenClassification&rsquo;</li>
 <li>The results will be evaluated in terms of recall, precision and F1</li>
+<li>It is recommended to use seqeval  <a href="https://pypi.org/project/seqeval/">https://pypi.org/project/seqeval/</a> for the evaluation</li>
 </ul>
 <h1 id="questions-1">Questions</h1>
 <ul>
 <li>Which model provides the best performance on each dataset?</li>
 <li>Do you see any differences between the embeddings learned on two different corpora of TP1?</li>
 <li>Compare these results with a Transformer model.</li>
+</ul>
+<h1 id="recommandations-1">Recommandations</h1>
+<ul>
+<li>Report and scripts  to be produced and sent befor  the session of February  6th:</li>
+<li>It will summarize  the work of the two lab sessions</li>
+<li>For the second lab session, the report summarizes the NER results of the different models and the answer to the questions.</li>
 </ul>
 
           </div>
